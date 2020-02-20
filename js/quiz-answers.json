@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "node": {
+        "field_number_correct": "0",
+        "field_result_message": "You got 0 out of 7 correct. That’s okay! Use your new knowledge to help you quit. Every Try Counts."
+      }
+    },
+    {
+      "node": {
+        "field_number_correct": "1",
+        "field_result_message": "You got 1 out of 7 correct. That’s okay! Use your new knowledge to help you quit. Every Try Counts."
+      }
+    },
+    {
+      "node": {
+        "field_number_correct": "2",
+        "field_result_message": "You got 2 out of 7 correct. That’s okay! Use your new knowledge to help you quit. Every Try Counts."
+      }
+    },
+    {
+      "node": {
+        "field_number_correct": "3",
+        "field_result_message": "You got 3 out of 7 correct. Know the facts and use them as motivation to quit! Every Try Counts."
+      }
+    },
+    {
+      "node": {
+        "field_number_correct": "4",
+        "field_result_message": "You got 4 out of 7 correct. Know the facts and use them as motivation to quit! Every Try Counts."
+      }
+    },
+    {
+      "node": {
+        "field_number_correct": "5",
+        "field_result_message": "You got 5 out of 7 correct. Great score! Remember, every try counts. We can help! Every Try Counts."
+      }
+    },
+    {
+      "node": {
+        "field_number_correct": "6",
+        "field_result_message": "You got 6 out of 7 correct. Great score! Remember, every try counts. We can help! Every Try Counts."
+      }
+    },
+    {
+      "node": {
+        "field_number_correct": "7",
+        "field_result_message": "You got 7 out of 7 correct. Perfect score! Remember, every try counts. We can help! Every Try Counts."
+      }
+    }
+  ]
+}
