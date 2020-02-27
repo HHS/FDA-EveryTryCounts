@@ -1,0 +1,22 @@
+{
+  "name": "fda-everytrycounts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HHS/FDA-EveryTryCounts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HHS/FDA-EveryTryCounts/issues"
+  },
+  "homepage": "https://github.com/HHS/FDA-EveryTryCounts#readme",
+  "dependencies": {
+    "webpack": "^4.41.6"
+  }
+}

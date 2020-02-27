@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "node": {
+        "title": "How Does Smoking Harm Your Body",
+        "field_quiz_description": "How much do you know about the benefits of quitting and how smoking affects your body? Take this quiz to find out.",
+        "field_true_feedback": "That’s incorrect. Smoking is known to cause cancer in nearly every organ, including the pancreas, liver, bladder, kidneys, lungs, esophagus, and much more!",
+        "field_false_feedback": "That’s right. Smoking is known to cause cancer in nearly every organ, including the pancreas, liver, bladder, kidneys, lungs, esophagus, and much more!",
+        "field_correct_answer": "false",
+        "field_statement": "Smoking does not cause cancer of the pancreas, liver, bladder, or kidneys."
+      }
+    },
+    {
+      "node": {
+        "title": "How Does Smoking Harm Your Body",
+        "field_quiz_description": "How much do you know about the benefits of quitting and how smoking affects your body? Take this quiz to find out.",
+        "field_true_feedback": "That’s incorrect. It’s actually more. Smokers are up to 20 times more likely to develop lung cancer than nonsmokers. The sooner you quit, the sooner your body begins to heal.",
+        "field_false_feedback": "Correct! It’s actually more. Smokers are up to 20 times more likely to develop lung cancer than nonsmokers. The sooner you quit, the sooner your body begins to heal.",
+        "field_correct_answer": "false",
+        "field_statement": "Cigarette smokers are up to 10 times more likely to develop lung cancer than nonsmokers."
+      }
+    },
+    {
+      "node": {
+        "title": "How Does Smoking Harm Your Body",
+        "field_quiz_description": "How much do you know about the benefits of quitting and how smoking affects your body? Take this quiz to find out.",
+        "field_true_feedback": "Correct! Damaged blood vessels can result in skin ulcers that are hard to heal and can become infected. These ulcers can ultimately result in the amputation of toes, feet, or legs. ",
+        "field_false_feedback": "That’s incorrect. Damaged blood vessels can result in skin ulcers that are hard to heal and can become infected. These ulcers can ultimately result in the amputation of toes, feet, or legs.",
+        "field_correct_answer": "true",
+        "field_statement": "Smoking causes damage to blood vessels that can eventually lead to amputation of toes, feet, or legs."
+      }
+    },
+    {
+      "node": {
+        "title": "How Does Smoking Harm Your Body",
+        "field_quiz_description": "How much do you know about the benefits of quitting and how smoking affects your body? Take this quiz to find out.",
+        "field_true_feedback": "You’re right! Your heart rate drops only 20 minutes after your last cigarette, and the carbon monoxide level in your blood returns to normal after 12 hours. Quit today and your heart will thank you!",
+        "field_false_feedback": "That’s incorrect. Your heart rate drops only 20 minutes after your last cigarette, and the carbon monoxide level in your blood returns to normal after 12 hours. Quit today and your heart will thank you!",
+        "field_correct_answer": "true",
+        "field_statement": "An increased heart rate from smoking starts to return to normal 20 minutes after quitting smoking."
+      }
+    },
+    {
+      "node": {
+        "title": "How Does Smoking Harm Your Body",
+        "field_quiz_description": "How much do you know about the benefits of quitting and how smoking affects your body? Take this quiz to find out.",
+        "field_true_feedback": "You are right. Exposure to secondhand smoke also increases the risk of other serious problems like strokes and coronary heart disease. Become smokefree and improve the health of the people you love most.",
+        "field_false_feedback": "That’s incorrect. Secondhand smoke also increases the risk of other serious problems like strokes and coronary heart disease. Become smokefree and improve the health of the people you love most.",
+        "field_correct_answer": "true",
+        "field_statement": "Living with a smoker increases a nonsmoker’s risk of lung cancer by up to 30%."
+      }
+    },
+    {
+      "node": {
+        "title": "How Does Smoking Harm Your Body",
+        "field_quiz_description": "How much do you know about the benefits of quitting and how smoking affects your body? Take this quiz to find out.",
+        "field_true_feedback": "That’s incorrect. Smokers are 30% to 40% more likely to develop diabetes. Smoking also makes it harder to manage the disease. ",
+        "field_false_feedback": "Correct! Smokers are 30% to 40% more likely to develop diabetes. Smoking also makes it harder to manage the disease.",
+        "field_correct_answer": "false",
+        "field_statement": "Smoking cigarettes does not increase your risk of developing type 2 diabetes."
+      }
+    },
+    {
+      "node": {
+        "title": "How Does Smoking Harm Your Body",
+        "field_quiz_description": "How much do you know about the benefits of quitting and how smoking affects your body? Take this quiz to find out.",
+        "field_true_feedback": "Correct! Smokers have weaker immune systems, which may lead to more frequent bouts of flu and other respiratory infections.",
+        "field_false_feedback": "That’s incorrect. Smokers have weaker immune systems, which may lead to more frequent bouts of flu and other respiratory infections.",
+        "field_correct_answer": "true",
+        "field_statement": "Smokers may get the flu more often than non-smokers. "
+      }
+    }
+  ]
+}
