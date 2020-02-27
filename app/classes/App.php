@@ -8,7 +8,8 @@
         protected static $header = "/app/views/partials/header.php";
         protected static $body = "/app/views/partials/body.php";
         protected static $footer = "/app/views/partials/footer.php";
-        protected static $ga = "/app/views/partials/ga.php";
+        protected static $ga_body = "/app/views/partials/ga_body.php";
+        protected static $ga_head = "/app/views/partials/ga_head.php";
         protected static $scripts = "/app/views/partials/scripts.php";
         protected static $meta = "/app/views/partials/meta.php";
         protected static $gtm = "/app/views/partials/gtm.php";
@@ -33,8 +34,14 @@
             self::get_file(self::$footer);
         }
 
-        public static function get_ga() {
-            self::get_file(self::$ga);
+        public static function get_ga($section) {
+            if ($section == "head") {
+                self::get_file(self::$ga_head);
+            }
+
+            if ($section == "body") {
+                self::get_file(self::$ga_body);
+            }
         }
 
         public static function get_scripts() {
@@ -50,7 +57,7 @@
         }
 
         public static function get_title() {
-            return self::$title;
+            echo self::$title;
         }
     }
 

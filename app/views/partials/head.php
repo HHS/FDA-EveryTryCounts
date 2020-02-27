@@ -8,20 +8,12 @@
 
 <title><?php App::get_title(); ?></title>
 
-<?php App::get_meta(); ?>
+<?php 
+	App::get_meta(); 
+	App::get_gtm(); 
+	App::get_ga("head");
+?>
 
-<?php App::get_gtm(); ?>
-
-<!-- Global site tag (gtag.js) - DoubleClick -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=DC-4345482"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'DC-4345482');
-</script>
-<!-- End of global snippet: Please do not remove -->
 <!-- Google Fonts, Muli -->
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,900" rel="stylesheet">
 

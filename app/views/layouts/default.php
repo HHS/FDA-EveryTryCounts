@@ -15,20 +15,12 @@
 		<!-- End Google Tag Manager (noscript) -->
 		
 		<!-- Header -->
-			<?php App::get_header(); ?>
-		<!-- End Header -->
-
-		<!-- Body -->
-			<?php App::get_body(); ?>		
-		<!-- End Body -->
-
-		<!-- Footer -->
-			<?php App::get_footer(); ?>
-		<!-- End Footer -->
-		
-		<!-- Google Analytics -->
-			<?php App::get_ga(); ?>
-		<!-- End Google Analytics -->
+		<?php 
+			App::get_header();
+			App::get_body();		
+			App::get_footer();
+			App::get_ga("body"); 
+		?>
 		
 		<!--Add user agent related info to HTML tag -->
 			<script>
