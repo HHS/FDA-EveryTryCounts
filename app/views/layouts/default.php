@@ -1,7 +1,11 @@
+<?php
+	use EveryTryCounts\App as App;
+?>
+
 <!doctype html>
 <html lang="en">
 	<head>
-		<?php $app->get_head(); ?>
+		<?php App::get_head(); ?>
 	</head>
 	<body>
 		<!-- Google Tag Manager (noscript) -->
@@ -11,19 +15,19 @@
 		<!-- End Google Tag Manager (noscript) -->
 		
 		<!-- Header -->
-			<?php $app->get_header(); ?>
+			<?php App::get_header(); ?>
 		<!-- End Header -->
 
 		<!-- Body -->
-			<?php $app->get_body(); ?>		
+			<?php App::get_body(); ?>		
 		<!-- End Body -->
 
 		<!-- Footer -->
-			<?php $app->get_footer(); ?>
+			<?php App::get_footer(); ?>
 		<!-- End Footer -->
 		
 		<!-- Google Analytics -->
-			<?php $app->get_ga(); ?>
+			<?php App::get_ga(); ?>
 		<!-- End Google Analytics -->
 		
 		<!--Add user agent related info to HTML tag -->
@@ -39,7 +43,7 @@
 		<!-- End Omniture Analytics -->
 
 		<!-- Scripts -->
-			<?php $app->get_scripts(); ?>
+			<?php App::get_scripts(); ?>
 		<!-- End Scripts -->
 	</body>
 </html>
