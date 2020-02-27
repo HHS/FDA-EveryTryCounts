@@ -1,45 +1,47 @@
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
-	entry: ["@babel/polyfill", "~/assets/js/app.js"],
+	entry: [
+		"@babel/polyfill", 
+		"./app/assets/js/App.js", 
+		"./app/assets/scss/styles.scss"
+	],
 	output: {
-		filename: "~/assets/dist/bundle.js"
+		filename: "../app/assets/dist/bundle.js"
 	},
 	watch: true,
 	mode: "development",
 	module: {
-		rules: [
-			{
-				test: /\.vue$/,
-				use: [
-					{
-						loader: "vue-loader"
-					}
-				]
-			},
-			{
-				test: /\.scss$/,
-				use: [
-					'vue-style-loader',
-					'css-loader',
-					'sass-loader',
-					{
-						loader: "sass-loader"
-					}
-				]
-			},
-			{
-				test: /\.m?js$/,
-				exclude: /node_modules\/(?!()\/).*/,
-				use: {
-					loader: "babel-loader",
-					options: {
-						presets: ["@babel/preset-env"]
-					}
+  	rules: [
+    	{
+    		test: /\.scss$/,
+    		use: [
+    			{
+    				loader: "file-loader",
+    				options: {
+    					name: "../app/assets/dist/styles.css"
+    				}
+    			},
+    			{
+    				loader: "sass-loader"
+    			}
+    		]
+    	},
+      {
+        test: /\.vue$/,
+			use: [
+				{
+					loader: "vue-loader"
 				}
-			}
-		]
+			]
+      	}
+    ]
 	},
+	resolve: {
+        alias: {
+            vue: 'vue/dist/vue.js'
+        }
+    },
 	plugins : [
 		new VueLoaderPlugin()
 	],

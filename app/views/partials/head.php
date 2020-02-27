@@ -12,6 +12,7 @@
 	App::get_meta(); 
 	App::get_gtm(); 
 	App::get_ga("head");
+	App::get_styles();
 ?>
 
 <!-- Google Fonts, Muli -->

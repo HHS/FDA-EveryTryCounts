@@ -13,6 +13,7 @@
         protected static $scripts = "/app/views/partials/scripts.php";
         protected static $meta = "/app/views/partials/meta.php";
         protected static $gtm = "/app/views/partials/gtm.php";
+        protected static $styles = "/app/views/partials/styles.php";
 
         public static function get_file($file) {
             require($_SERVER["DOCUMENT_ROOT"] . $file);
@@ -58,6 +59,10 @@
 
         public static function get_title() {
             echo self::$title;
+        }
+
+        public static function get_styles() {
+            self::get_file(self::$styles);
         }
     }
 

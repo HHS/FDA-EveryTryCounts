@@ -1,14 +1,3 @@
-var quiz_questions_path = "js/quiz-questions.json";
-var quiz_answers_path = "js/quiz-answers.json";
-var daily_challenges_path = "js/nicotine-replacement-therapy.json";
-var crave_tips_path = "js/crave-tip.json";
-var program_challenge_opt_in_path = "OP56B6889DB1923D2D32D4CF759392DE31";
-var program_practice_opt_in_path = "OPEBD89527478E57DA49D1E09D3DF8A4F7";
-var program_quit_opt_in_path = "OPA7617F80268DAB16A34460649A11B84B";
-var mobile_commons_url = "https://secure.mcommons.com/profiles/join";
-var text_signup_confirmation_message = "Check your phone for a text message from 47848. Respond to the questions to complete enrollment.";
-var text_signup_error_message = "Unable to process your request at this time. Please <a href='#' onclick='window.location.reload(true);'>reload page</a> to try again.";
-
 fallback.load({
     global_css: 'css/bootstrap.min.css',
     page_css: 'css/style.css',
