@@ -1,29 +1,17 @@
-<?php //require($_SERVER["DOCUMENT_ROOT"] . "/app/classes/App.php"); ?>
+<?php
+	use EveryTryCounts\App as App;
+?>
+
 <link rel="canonical" href="https://smokefree.gov/everytrycounts/" />
+
 <link rel="shortcut icon" href="/themes/custom/smokefree_gov/favicon.ico" type="image/vnd.microsoft.icon" />
-<title>Every Try Counts</title>
-<?php //$app->get_meta(); ?>
-<!-- Disable tap highlight on IE -->
-<!-- Google Tag Manager -->
-<script>
-	if (location.hostname == 'smokefree.gov' || location.hostname == 'www.smokefree.gov') {
-		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
-			{'gtm.start': new Date().getTime(),event:'gtm.js'}
-		);var f=d.getElementsByTagName(s)[0],
-			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','');
-	}
-	else {
-		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
-			{'gtm.start': new Date().getTime(),event:'gtm.js'}
-		);var f=d.getElementsByTagName(s)[0],
-			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','');
-	}
-</script>
-<!-- End Google Tag Manager -->
+
+<title><?php App::get_title(); ?></title>
+
+<?php App::get_meta(); ?>
+
+<?php App::get_gtm(); ?>
+
 <!-- Global site tag (gtag.js) - DoubleClick -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=DC-4345482"></script>
 <script>

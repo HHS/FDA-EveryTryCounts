@@ -3,6 +3,7 @@
     namespace EveryTryCounts;
 
     class App {
+        protected static $title = "Every Try Counts";
         protected static $head = "/app/views/partials/head.php";
         protected static $header = "/app/views/partials/header.php";
         protected static $body = "/app/views/partials/body.php";
@@ -10,6 +11,7 @@
         protected static $ga = "/app/views/partials/ga.php";
         protected static $scripts = "/app/views/partials/scripts.php";
         protected static $meta = "/app/views/partials/meta.php";
+        protected static $gtm = "/app/views/partials/gtm.php";
 
         public static function get_file($file) {
             require($_SERVER["DOCUMENT_ROOT"] . $file);
@@ -41,6 +43,14 @@
 
         public static function get_meta() {
             self::get_file(self::$meta);
+        }
+
+        public static function get_gtm() {
+            self::get_file(self::$gtm);
+        }
+
+        public static function get_title() {
+            return self::$title;
         }
     }
 
