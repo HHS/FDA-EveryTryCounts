@@ -32,7 +32,7 @@
         <a id='popup-message-close'></a><br>
         <h1 class="popup-message-title">Live Online Chat</h1>
         <div id="popup-message-content">
-            <p><img alt="LiveHelp cancer.gov" class="livehelp_icon" src="/themes/custom/smokefree/images/livechat/livehelp_icon.png" /></p>
+            <p><img alt="LiveHelp cancer.gov" class="livehelp_icon" src="/app/assets/images/livehelp_icon.png" /></p>
             <p>Do you want to chat with a trained counselor about quitting?</p>
             <form action="https://livehelp.cancer.gov/app/chat/chat_landing" id="bar" method="POST"><input name="_icf_22" style="display: none !important;" type="text" value="91" /><button type="submit">Get Support</button></form>
         </div>

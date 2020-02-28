@@ -5,7 +5,7 @@
         "title": "Deep Breathing",
         "field_crave_tip_description": "Use deep breathing to fight cravings and stressful situations. Try 10 slow, deep breaths.",
         "field_crave_tip_image": {
-          "src": "/everytrycounts/images/crave-tip/deepbreathing_0.png",
+          "src": "/app/assets/images/crave-tip/deepbreathing_0.png",
           "alt": "Deep breathing"
         }
       }
@@ -15,7 +15,7 @@
         "title": "Distraction",
         "field_crave_tip_description": "Distract yourself. Clean out your car, desk, or junk drawer until the craving passes.",
         "field_crave_tip_image": {
-          "src": "/everytrycounts/images/crave-tip/distractyourself.png",
+          "src": "/app/assets/images/crave-tip/distractyourself.png",
           "alt": "Distract Yourself"
         }
       }
@@ -25,7 +25,7 @@
         "title": "Busy Hands",
         "field_crave_tip_description": "Keep your hands busy when a craving hits. Play with a coin, straw, or rubber band.",
         "field_crave_tip_image": {
-          "src": "/everytrycounts/images/crave-tip/keephandsbusy.png",
+          "src": "/app/assets/images/crave-tip/keephandsbusy.png",
           "alt": "Keep your hands busy"
         }
       }
@@ -35,7 +35,7 @@
         "title": "Talk Through it",
         "field_crave_tip_description": "Talk through it. Call or text a friend when you’re stressed out or sad.",
         "field_crave_tip_image": {
-          "src": "/everytrycounts/images/crave-tip/talkthroughit.png",
+          "src": "/app/assets/images/crave-tip/talkthroughit.png",
           "alt": "Talk it through"
         }
       }
@@ -45,7 +45,7 @@
         "title": "Use Exercise",
         "field_crave_tip_description": "Use exercise to get in a better mood. Physical activity is a natural mood booster.",
         "field_crave_tip_image": {
-          "src": "/everytrycounts/images/crave-tip/useexercise.png",
+          "src": "/app/assets/images/crave-tip/useexercise.png",
           "alt": "Use Exercise"
         }
       }
@@ -55,7 +55,7 @@
         "title": "Nicotine Replacement Therapy",
         "field_crave_tip_description": "Try nicotine replacement therapy (NRT), such as gums or patches. Using NRT can double your chance of quitting for good.",
         "field_crave_tip_image": {
-          "src": "/everytrycounts/images/crave-tip/Nicotine%20Patch.jpg",
+          "src": "/app/assets/images/crave-tip/Nicotine%20Patch.jpg",
           "alt": "Nicotine Patch"
         }
       }

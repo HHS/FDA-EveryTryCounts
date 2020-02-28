@@ -7,7 +7,7 @@ module.exports = {
 		"./app/assets/scss/styles.scss"
 	],
 	output: {
-		filename: "../app/assets/dist/bundle.js"
+		filename: "../app/dist/bundle.js"
 	},
 	watch: true,
 	mode: "development",
@@ -19,7 +19,7 @@ module.exports = {
     			{
     				loader: "file-loader",
     				options: {
-    					name: "../app/assets/dist/styles.css"
+    					name: "../app/dist/styles.css"
     				}
     			},
     			{

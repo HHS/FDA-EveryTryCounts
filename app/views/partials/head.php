@@ -4,7 +4,7 @@
 
 <link rel="canonical" href="https://smokefree.gov/everytrycounts/" />
 
-<link rel="shortcut icon" href="/themes/custom/smokefree_gov/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
 
 <title><?php App::get_title(); ?></title>
 

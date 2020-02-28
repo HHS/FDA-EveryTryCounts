@@ -202,7 +202,7 @@ p.quiz-results-message {
 .everyTryCounts,
 .video {
 	background-color:#34516c;
-	background-image: url(../images/blue-background.png);
+	background-image: url(/app/assets/images/blue-background.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -221,7 +221,7 @@ p.quiz-results-message {
 	padding-right:325px;
 }
 .everyTryCounts .smokerFemale {
-	background-image: url(../images/smoker-male.png);
+	background-image: url(/app/assets/images/smoker-male.png);
 	background-repeat: no-repeat;
 	width:350px;
 	height:450px;
@@ -280,7 +280,7 @@ p.quiz-results-message {
 	border-radius: 50%;
 	background-color: #ffffff;
 	border:1px solid #e8aa5e;
-	background-image: url(../images/x.png);
+	background-image: url(/app/assets/images/x.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -506,7 +506,7 @@ p.quiz-results-message {
 	}
 }
 .tips {
-	background-image: url(../images/craving-background.png);
+	background-image: url(/app/assets/images/craving-background.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -519,7 +519,7 @@ p.quiz-results-message {
 /* -------------------------------------- Questions -------------------------------------- */
 .questions {
 	background-color:#dad6d3;
-	background-image: url(../images/questions-background.png);
+	background-image: url(/app/assets/images/questions-background.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -720,7 +720,7 @@ p.quiz-results-message {
 	padding: 30px 30px 0px 30px;
 	overflow: hidden;
 	background-color:#26231e;
-	background-image: url(../images/morehelp-background.png);
+	background-image: url(/app/assets/images/morehelp-background.png);
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -739,7 +739,7 @@ p.quiz-results-message {
 }
 @media (max-width: 1200px) {
 	.moreHelp {
-		background-image: url(../images/morehelp-background.png);
+		background-image: url(/app/assets/images/morehelp-background.png);
 		background-position: left top;
 	}
 }
@@ -772,7 +772,7 @@ p.phone {
 	left:0px;
 	width:80px;
 	height:80px;
-	background-image: url(../images/call-icon-2x.png);
+	background-image: url(/app/assets/images/call-icon-2x.png);
 	background-repeat: no-repeat;
 	background-size: 80px 80px;
 }
@@ -971,7 +971,7 @@ button {
 	height:20px;
 	display: table-cell;
 	vertical-align: middle;
-	background-image: url(../images/calendar-icon-2x.png);
+	background-image: url(/app/assets/images/calendar-icon-2x.png);
 	background-repeat: no-repeat;
 	background-size: 20px 40px;
 	background-position: 0 0;
@@ -1276,7 +1276,7 @@ button {
 	position: absolute;
 	top:-15px;
 	right:-15px;
-	background-image: url('/themes/custom/smokefree/images/livechat/x.png');
+	background-image: url('/app/assets/images/x-white.png');
 	background-size: 24px 24px;
 	background-repeat: no-repeat;
 	box-shadow: 0px 2px 4px 4px rgba(0,0,0,0.25);

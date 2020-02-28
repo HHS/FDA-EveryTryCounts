@@ -2,7 +2,6 @@ import Vue from "vue";
 import $ from "jquery";
 import jQuery from "jquery";
 import Settings from "./Settings";
-import VeeValidate from "vee-validate";
 
 window.$ = $;
 window.jQuery = jQuery;
@@ -10,9 +9,7 @@ window.jQuery = jQuery;
 require("./vendor/popup");
 require("./vendor/bootstrap.min.js");
 
-// Vue.component("navigation", require("../components/blocks/Navigation.vue").default);
-
-// Vue.use(VeeValidate);
+Vue.use(VeeValidate);
 
 new Vue({
     el: "#app",
@@ -127,7 +124,7 @@ new Vue({
          *    The button press event.
          */
         record_answer: function(e) {
-            btn = e.target || e.srcElement;
+            var btn = e.target || e.srcElement;
             this.answer_selected = btn.id;
             if (this.answer_selected == this.all_quiz_questions[this.current_quiz_question_number - 1].node.field_correct_answer) {
                 this.correct_answers++;
