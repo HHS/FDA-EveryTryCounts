@@ -242,26 +242,26 @@ new Vue({
                 request.done(function(msg) {
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
-                            vue.program_challenge_confirmation = text_signup_confirmation_message;
+                            vue.program_challenge_confirmation = vue.text_signup_confirmation_message;
                             break;
                         case vue.program_practice_opt_in_path:
-                            vue.program_practice_confirmation = text_signup_confirmation_message;
+                            vue.program_practice_confirmation = vue.text_signup_confirmation_message;
                             break;
                         case vue.program_quit_opt_in_path:
-                            vue.program_quit_confirmation = text_signup_confirmation_message;
+                            vue.program_quit_confirmation = vue.text_signup_confirmation_message;
                             break;
                     }
                 });
                 request.fail(function(jqXHR, textStatus) {
                     switch (this.opt_in_path) {
-                        case program_challenge_opt_in_path:
-                            vue.program_challenge_confirmation = text_signup_error_message;
+                        case vue.program_challenge_opt_in_path:
+                            vue.program_challenge_confirmation = vue.text_signup_error_message;
                             break;
-                        case program_practice_opt_in_path:
-                            vue.program_practice_confirmation = text_signup_error_message;
+                        case vue.program_practice_opt_in_path:
+                            vue.program_practice_confirmation = vue.text_signup_error_message;
                             break;
-                        case program_quit_opt_in_path:
-                            vue.program_quit_confirmation = text_signup_error_message;
+                        case vue.program_quit_opt_in_path:
+                            vue.program_quit_confirmation = vue.text_signup_error_message;
                             break;
                     }
                 });
