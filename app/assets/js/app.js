@@ -233,7 +233,7 @@ new Vue({
                         break;
                 }
                 var request = $.ajax({
-                    url: mobile_commons_url,
+                    url: vue.mobile_commons_url,
                     type: "POST",
                     data: fields,
                     opt_in_path: opt_in,

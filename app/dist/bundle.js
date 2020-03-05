@@ -335,7 +335,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                         break;
                 }
                 var request = jquery__WEBPACK_IMPORTED_MODULE_1___default.a.ajax({
-                    url: mobile_commons_url,
+                    url: vue.mobile_commons_url,
                     type: "POST",
                     data: fields,
                     opt_in_path: opt_in,
