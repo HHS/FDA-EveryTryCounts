@@ -6,6 +6,10 @@
   "scripts": {
     "dev": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HHS/FDA-EveryTryCounts.git"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
