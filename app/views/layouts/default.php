@@ -14,13 +14,14 @@
 			</noscript>
 		<!-- End Google Tag Manager (noscript) -->
 		
-		<!-- Header -->
-		<?php 
-			App::get_header();
-			App::get_body();		
-			App::get_footer();
-			App::get_ga("body"); 
-		?>
+		<!-- Page Contents -->
+			<?php 
+				App::get_header();
+				App::get_body();		
+				App::get_footer();
+				App::get_ga("body"); 
+			?>
+		<!-- End Page Contents -->
 		
 		<!--Add user agent related info to HTML tag -->
 			<script>
