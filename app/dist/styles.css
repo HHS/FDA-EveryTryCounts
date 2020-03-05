@@ -1,0 +1,1887 @@
+/*------- Start - Load Google fonts manually -----------*/
+@font-face {
+  font-family: 'Knockout';
+  src: url("../assets/fonts/Knockout-HTF91-UltmtMiddlewt.eot"), url("../assets/fonts/Knockout-HTF91-UltmtMiddlewt.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Knockout-HTF91-UltmtMiddlewt.woff2") format("woff2"), url("../assets/fonts/Knockout-HTF91-UltmtMiddlewt.woff") format("woff"), url("../assets/fonts/Knockout-HTF91-UltmtMiddlewt.ttf") format("truetype"), url("../assets/fonts/Knockout-HTF91-UltmtMiddlewt.svg#Knockout-HTF91-UltmtMiddlewt") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Cormorant Garamond Light Italic"), local("CormorantGaramond-LightItalic"), url(https://fonts.gstatic.com/s/cormorantgaramond/v6/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEPjuz-HzhOp_D95AnI.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Cormorant Garamond Light Italic"), local("CormorantGaramond-LightItalic"), url(https://fonts.gstatic.com/s/cormorantgaramond/v6/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEPjuz-OzhOp_D95AnI.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Cormorant Garamond Light Italic"), local("CormorantGaramond-LightItalic"), url(https://fonts.gstatic.com/s/cormorantgaramond/v6/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEPjuz-FzhOp_D95AnI.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Cormorant Garamond Light Italic"), local("CormorantGaramond-LightItalic"), url(https://fonts.gstatic.com/s/cormorantgaramond/v6/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEPjuz-EzhOp_D95AnI.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Cormorant Garamond Light Italic"), local("CormorantGaramond-LightItalic"), url(https://fonts.gstatic.com/s/cormorantgaramond/v6/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEPjuz-KzhOp_D95.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Montserrat ExtraLight"), local("Montserrat-ExtraLight"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_aZA3gTD_vx3rCubqg.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Montserrat ExtraLight"), local("Montserrat-ExtraLight"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_aZA3g3D_vx3rCubqg.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Montserrat ExtraLight"), local("Montserrat-ExtraLight"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_aZA3gbD_vx3rCubqg.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Montserrat ExtraLight"), local("Montserrat-ExtraLight"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_aZA3gfD_vx3rCubqg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Montserrat ExtraLight"), local("Montserrat-ExtraLight"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_aZA3gnD_vx3rCs.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_bZF3gTD_vx3rCubqg.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_bZF3g3D_vx3rCubqg.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_bZF3gbD_vx3rCubqg.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_bZF3gfD_vx3rCubqg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_bZF3gnD_vx3rCs.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_dJE3gTD_vx3rCubqg.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_dJE3g3D_vx3rCubqg.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_dJE3gbD_vx3rCubqg.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_dJE3gfD_vx3rCubqg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_dJE3gnD_vx3rCs.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc3CsTYl4BOQ3o.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc-CsTYl4BOQ3o.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc2CsTYl4BOQ3o.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc5CsTYl4BOQ3o.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc1CsTYl4BOQ3o.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc0CsTYl4BOQ3o.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc6CsTYl4BO.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Italic"), local("Roboto-Italic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOkCnqEu92Fr1Mu51xFIzIXKMnyrYk.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Italic"), local("Roboto-Italic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOkCnqEu92Fr1Mu51xMIzIXKMnyrYk.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Italic"), local("Roboto-Italic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOkCnqEu92Fr1Mu51xEIzIXKMnyrYk.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Italic"), local("Roboto-Italic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOkCnqEu92Fr1Mu51xLIzIXKMnyrYk.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Italic"), local("Roboto-Italic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOkCnqEu92Fr1Mu51xHIzIXKMnyrYk.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Italic"), local("Roboto-Italic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOkCnqEu92Fr1Mu51xGIzIXKMnyrYk.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Italic"), local("Roboto-Italic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic3CsTYl4BOQ3o.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic-CsTYl4BOQ3o.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic2CsTYl4BOQ3o.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic5CsTYl4BOQ3o.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic1CsTYl4BOQ3o.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic0CsTYl4BOQ3o.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic6CsTYl4BO.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), local("sans-serif-light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), local("sans-serif"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/*------- End - Load Google fonts manually -----------*/
+/* CSS Document */
+.test-test {
+  background: blue; }
+
+/* -------------------------------------- body -------------------------------------- */
+body {
+  background-color: #eeeeee; }
+
+h1 {
+  color: #ffffff; }
+
+h2 {
+  color: #1c3a5e;
+  font-family: "Knockout", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 56px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin: 0px 0px 15px; }
+
+h3 {
+  color: #2a2a2a;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 32px;
+  margin: 0px 0px 8px; }
+
+.programBox .titleArea h3 {
+  text-align: center;
+  font-family: "Knockout", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 25px;
+  margin: 0; }
+
+.programBox p.unsubscribe {
+  text-align: center;
+  font-size: 14px; }
+
+p,
+ul > li {
+  color: #000000;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px; }
+
+p.quiz-results-message {
+  text-align: center;
+  font-size: 24px; }
+
+.bold {
+  font-weight: 900; }
+
+.everyTryCounts p,
+.video h2, .video p,
+.moreHelp h2, .moreHelp p, .moreHelp ul {
+  color: #ffffff; }
+
+.moreHelp h2 {
+  font-size: 40px;
+  line-height: 38px;
+  padding-right: 20px;
+  margin-bottom: 30px; }
+
+.moreHelp h2 a {
+  text-decoration: none;
+  border-bottom: 5px solid #ffffff; }
+
+.moreHelp ul,
+.moreHelp p {
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; }
+
+.moreHelp ul > li {
+  margin-bottom: 8px; }
+
+.moreHelp ul > li:last-of-type {
+  margin-bottom: 24px; }
+
+.moreHelp p.phone {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 900; }
+
+.moreHelp p.phone a {
+  text-decoration: underline; }
+
+.moreHelp p {
+  padding-right: 50px; }
+
+@media (max-width: 992px) {
+  .moreHelp h2 {
+    padding-right: 30px; } }
+
+@media (max-width: 768px) {
+  .moreHelp h2 {
+    padding-right: 0px; }
+  .moreHelp p {
+    padding-right: 0px; } }
+
+@media (max-width: 650px) {
+  h2,
+  .moreHelp h2 {
+    font-size: 46px;
+    line-height: 44px; }
+  .challenges h3 {
+    width: 100%;
+    min-height: 20px; } }
+
+@media only screen and (max-width: 600px) {
+  .moreHelp {
+    padding-bottom: 85px; } }
+
+@media (max-width: 500px) {
+  h2,
+  .moreHelp h2 {
+    font-size: 40px;
+    line-height: 36px; } }
+
+@media (max-width: 430px) {
+  h2,
+  .moreHelp h2 {
+    font-size: 38px;
+    line-height: 32px; }
+  p,
+  ul > li {
+    font-size: 18px;
+    line-height: 26px; } }
+
+@media (max-width: 390px) {
+  h2,
+  .moreHelp h2 {
+    font-size: 36px;
+    line-height: 30px; }
+  p,
+  ul > li {
+    font-size: 17px;
+    line-height: 24px; } }
+
+@media (max-width: 370px) {
+  h2,
+  .moreHelp h2 {
+    font-size: 32px;
+    line-height: 28px; }
+  p,
+  ul > li {
+    font-size: 16px;
+    line-height: 22px; } }
+
+/* -------------------------------------- Rows -------------------------------------- */
+.everyTryCounts,
+.video,
+.tips,
+.questions,
+.challenges,
+.app {
+  position: relative;
+  padding: 30px;
+  overflow: hidden; }
+
+.somethingNew {
+  position: relative;
+  padding: 30px; }
+
+.somethingNew,
+.tips,
+.challenges {
+  background-color: #ffffff; }
+
+.everyTryCounts,
+.video {
+  background-color: #34516c;
+  background-image: url(/app/assets/images/blue-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* -------------------------------------- Every Try Counts -------------------------------------- */
+.everyTryCounts {
+  min-height: 300px; }
+
+.everyTryCounts .logo {
+  width: 440px;
+  height: 160px; }
+
+.everyTryCounts .intro {
+  padding-left: 30px;
+  padding-right: 325px; }
+
+.everyTryCounts .smokerFemale {
+  background-image: url(/app/assets/images/smoker-male.png);
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  top: -10px;
+  right: 30px; }
+
+@media (max-width: 992px) {
+  .everyTryCounts .intro {
+    padding-left: 0px;
+    padding-right: 300px; }
+  .everyTryCounts .logo {
+    width: 220px;
+    height: 80px; } }
+
+@media (max-width: 786px) {
+  .everyTryCounts .intro {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .everyTryCounts .smokerFemale {
+    display: none; } }
+
+@media (max-width: 500px) {
+  .everyTryCounts .logo {
+    width: 100%;
+    height: auto; } }
+
+/* -------------------------------------- Something New -------------------------------------- */
+.programs {
+  position: relative; }
+
+.programBox {
+  border: 1px solid #e8aa5e;
+  background-color: #f1f1f1; }
+
+.programBox .titleArea {
+  background-color: #e8aa5e;
+  width: 100%;
+  border: none;
+  position: relative; }
+
+#programChallenge .titleArea::after,
+#programPractice .titleArea::after,
+#programQuit .titleArea::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #e8aa5e;
+  background-image: url(/app/assets/images/x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.15); }
+
+#programChallenge .titleArea.active::after,
+#programPractice .titleArea.active::after,
+#programQuit .titleArea.active::after {
+  -webkit-transition: all 400ms ease-in;
+  -ms-transition: all 400ms ease-in;
+  transition: all 400ms ease-in;
+  top: 50%;
+  right: 8px;
+  width: 36px;
+  height: 36px;
+  margin-top: -20px; }
+
+.programBox .programContent {
+  font-size: 18px;
+  line-height: 22px;
+  padding: 20px; }
+
+.example {
+  background-color: #ffffff;
+  border: 1px solid #5ea4ea;
+  color: #0048aa;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 15px;
+  margin-bottom: 30px;
+  position: relative;
+  -webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.15); }
+
+.example::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 15px;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 15px;
+  border-right-width: 15px;
+  border-top: 15px solid #ffffff; }
+
+.programContent .form-control {
+  height: 64px;
+  border-radius: 0px;
+  font-size: 16px; }
+
+.unsubscribe {
+  margin-bottom: 0px; }
+
+#programChallenge,
+#programPractice,
+#programQuit {
+  position: absolute;
+  left: 0;
+  z-index: 99; }
+
+@media (max-width: 414px) {
+  #programChallenge,
+  #programPractice,
+  #programQuit {
+    /*top: 197px;*/ } }
+
+@media (max-width: 375px) {
+  #programChallenge,
+  #programPractice,
+  #programQuit {
+    /*top: 224px;*/ } }
+
+.text_confirmation {
+  color: #000000;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #e2e2e2; }
+
+@media (max-width: 728px) {
+  .text_confirmation {
+    font-size: 18px;
+    line-height: 24px; } }
+
+@media (max-width: 400px) {
+  .text_confirmation {
+    font-size: 16px;
+    line-height: 20px; } }
+
+@media (max-width: 490px) {
+  .programs .input-group {
+    width: 100%; }
+  .programs .input-group .form-control.input,
+  .programs .input-group .input-group-btn {
+    width: 100%;
+    float: none;
+    display: block; }
+  .programs .input-group .input-group-btn .btn-signup {
+    width: 100%;
+    display: block;
+    float: none;
+    margin: 15px 0px 5px; } }
+
+@media (max-width: 374px) {
+  .programContent .form-control {
+    font-size: 13px; } }
+
+/* -------------------------------------- Video -------------------------------------- */
+.video {
+  min-height: 365px; }
+
+@media (max-width: 450px) {
+  .video {
+    min-height: auto; } }
+
+.video .col-sm-12 {
+  z-index: 50; }
+
+/* -------------------------------------- Tips -------------------------------------- */
+.carousel {
+  margin-bottom: 50px;
+  height: 250px;
+  overflow: hidden; }
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none; }
+
+.carousel-control,
+.carousel-control {
+  background-color: #000000;
+  opacity: 0.7; }
+
+.carousel-control:focus,
+.carousel-control:hover {
+  opacity: 0.8;
+  color: #ffffff; }
+
+.tipContent {
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+  min-height: 70px;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  margin: 0px;
+  padding: 0px 30px; }
+
+@media (max-width: 370px) {
+  .tipContent {
+    font-size: 12px !important; } }
+
+.carousel-inner {
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+@media (max-width: 1200px) {
+  .carousel {
+    height: 200px; } }
+
+@media (max-width: 992px) {
+  .carousel {
+    height: 320px; } }
+
+@media (max-width: 768px) {
+  .carousel {
+    height: 250px; } }
+
+@media (max-width: 610px) {
+  .carousel {
+    height: 220px; } }
+
+@media (max-width: 550px) {
+  .carousel {
+    height: 180px; } }
+
+@media (max-width: 475px) {
+  .carousel {
+    height: 150px;
+    margin-bottom: 70px; }
+  .tipContent {
+    bottom: 15px; } }
+
+@media (max-width: 420px) {
+  .carousel {
+    height: 120px; } }
+
+@media (max-width: 370px) {
+  .carousel {
+    height: 100px; } }
+
+@media (max-width: 374px) {
+  .tipContent {
+    font-size: 13px;
+    top: 130px; } }
+
+.tips {
+  background-image: url(/app/assets/images/craving-background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*@media (max-width: 330px) {*/
+/*.carousel {*/
+/*height: 80px;*/
+/*}*/
+/*}*/
+/* -------------------------------------- Questions -------------------------------------- */
+.questions {
+  background-color: #dad6d3;
+  background-image: url(/app/assets/images/questions-background.png);
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+@media (max-width: 1200px) {
+  .questions {
+    background-position: left center; } }
+
+@media (max-width: 992px) {
+  .questions {
+    background-image: none; } }
+
+.question {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  border-top: solid 1px gray; }
+
+/* -------------------------------------- Challenges -------------------------------------- */
+.challengeTitle {
+  margin: 10px 0px;
+  min-height: 80px; }
+
+.challengeContent {
+  min-height: 310px;
+  overflow: hidden;
+  padding-bottom: 30px; }
+
+#flipCard {
+  position: relative;
+  height: 540px;
+  background: #fff;
+  margin-bottom: 30px;
+  /* Set the depth of the elements */
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  perspective: 800px; }
+
+#flipCard .card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+  /* Set the transition effects */
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  -o-transition: -o-transform 0.4s;
+  transition: transform 0.4s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
+
+#flipCard .card.flipped {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg); }
+
+#flipCard .card.flipped-out {
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  transform: rotateY(90deg); }
+
+#flipCard .card.flipped-in {
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  transform: rotateY(90deg); }
+
+#flipCard .card .front,
+#flipCard .card .back {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 30px;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+#flipCard .card .front {
+  background: #ededed; }
+
+#flipCard .card .back {
+  background: #ededed;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg); }
+
+@media (max-width: 520px) {
+  #flipCard {
+    height: 600px;
+    min-height: 600px; }
+  .challengeTitle {
+    max-height: 120px;
+    min-height: 120px;
+    height: 120px; }
+  .challengeContent {
+    max-height: 340px;
+    min-height: 340px;
+    height: 340px;
+    padding: 0;
+    margin: 0; } }
+
+@media (max-width: 360px) {
+  #flipCard {
+    height: 440px; }
+  .challengeContent {
+    max-height: 375px;
+    min-height: 375px;
+    height: 375px; } }
+
+/* -------------------------------------- App -------------------------------------- */
+.app {
+  background: white; }
+
+.appDownloads a:first-of-type img {
+  display: inline-block;
+  width: 180px;
+  height: 60px;
+  margin-right: 10px; }
+
+.appDownloads a:nth-child(2) img {
+  display: inline-block;
+  width: 185px;
+  height: 60px;
+  margin-left: 10px; }
+
+.quitGuideIntro {
+  padding-right: 100px; }
+
+.quitGuide {
+  position: relative; }
+
+.quitGuide .quitGuideIcon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0px;
+  left: -100px; }
+
+@media (max-width: 1200px) {
+  .quitGuideIntro {
+    padding-right: 160px; } }
+
+@media (max-width: 992px) {
+  .quitGuideIntro {
+    padding-right: 0px; }
+  .appDownloads {
+    padding-bottom: 20px; }
+  .quitGuide {
+    padding-right: 100px; }
+  .quitGuide .quitGuideIcon {
+    top: 0px;
+    left: auto;
+    right: 0px; } }
+
+@media (max-width: 768px) {
+  .quitGuide {
+    padding-right: 0px; } }
+
+@media (max-width: 480px) {
+  .appDownloads a:first-of-type img {
+    display: block;
+    width: 180px;
+    height: 60px;
+    margin: 20px auto; }
+  .appDownloads a:nth-child(2) img {
+    display: block;
+    width: 185px;
+    height: 60px;
+    margin: 20px auto; } }
+
+/* -------------------------------------- More Help -------------------------------------- */
+.moreHelp {
+  position: relative;
+  padding: 30px 30px 0px 30px;
+  overflow: hidden;
+  background-color: #26231e;
+  background-image: url(/app/assets/images/morehelp-background.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.moreHelp a {
+  color: #ffffff;
+  text-decoration: underline; }
+
+.moreHelp a:focus,
+.moreHelp a:hover {
+  color: #dee1ac;
+  text-decoration: none; }
+
+.moreHelp h2 a:hover {
+  border-bottom: none; }
+
+@media (max-width: 1200px) {
+  .moreHelp {
+    background-image: url(/app/assets/images/morehelp-background.png);
+    background-position: left top; } }
+
+@media (max-width: 768px) {
+  .moreHelp {
+    background-image: none; } }
+
+/* -------------------------------------- footer - call info -------------------------------------- */
+p.phone {
+  padding-top: 10px; }
+
+.callinfo {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 15px 30px 15px;
+  margin-top: 50px;
+  margin-left: -30px;
+  margin-right: -30px; }
+
+.call-number {
+  margin-top: 5px;
+  padding-left: 95px;
+  position: relative; }
+
+.call-number::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 80px;
+  background-image: url(/app/assets/images/call-icon-2x.png);
+  background-repeat: no-repeat;
+  background-size: 80px 80px; }
+
+.callinfo .call-title {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 32px;
+  font-weight: 900; }
+
+.callinfo .call-numbers-dial {
+  display: inline-block;
+  vertical-align: middle; }
+
+.callinfo .call-numbers-dial a:hover {
+  color: #dee1ac;
+  text-decoration: none; }
+
+@media (max-width: 600px) {
+  .call-number {
+    margin-bottom: 80px; } }
+
+@media (max-width: 400px) {
+  p.phone {
+    font-size: 17px; }
+  .callinfo .call-title {
+    font-size: 24px; }
+  .call-number {
+    padding-left: 55px; }
+  .call-number::before {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px; } }
+
+@media (max-width: 345px) {
+  .call-number {
+    padding-left: 0px; }
+  .call-number::before {
+    display: none; } }
+
+/* -------------------------------------- shadows -------------------------------------- */
+.topShadow,
+.bottomShadow {
+  width: 100%;
+  height: 13px;
+  position: absolute;
+  left: 0;
+  z-index: 10; }
+
+.topShadow {
+  top: 0;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26000000', endColorstr='#00000000',GradientType=0 );
+  /* IE6-9 */ }
+
+.bottomShadow {
+  bottom: 0;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.15) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.15) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.15) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#26000000',GradientType=0 );
+  /* IE6-9 */ }
+
+/* -------------------------------------- boxes -------------------------------------- */
+.box {
+  position: relative;
+  padding: 30px; }
+
+.grayBox {
+  background-color: #ededed; }
+
+.whiteBox {
+  background-color: #ffffff;
+  overflow: hidden;
+  height: 300px; }
+
+@media (max-width: 650px) {
+  .box.grayBox {
+    padding: 0px;
+    padding-bottom: 30px; } }
+
+@media (max-width: 350px) {
+  .whiteBox {
+    height: 350px; }
+  .box.grayBox {
+    padding: 0px;
+    padding-bottom: 35px; } }
+
+/* -------------------------------------- buttons -------------------------------------- */
+button {
+  cursor: pointer; }
+
+.programs button.btn {
+  background-color: #4670a0;
+  display: block;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  border-radius: 0;
+  color: #ffffff;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  padding: 20px 70px;
+  margin: 0px 0px 15px;
+  white-space: normal; }
+
+.programs button.btn:focus,
+.programs button.btn:hover {
+  /*background-color:#3e5269;*/
+  -webkit-transition: background-color 500ms ease-in;
+  -ms-transition: background-color 500ms ease-in;
+  transition: background-color 500ms ease-in; }
+
+.programs button.btn.btn-signup {
+  height: 64px;
+  width: 180px;
+  text-align: center;
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 22px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 15px;
+  margin-left: 10px; }
+
+.answerGroup {
+  margin-top: 20px; }
+
+.answerGroup button.btn {
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 28px;
+  text-transform: uppercase;
+  width: 47%;
+  padding: 15px;
+  color: #5B799B;
+  background-color: #ffffff;
+  border: 2px solid #5B799B;
+  border-radius: 0; }
+
+.answerGroup button.btn:first-of-type {
+  margin-right: 10px; }
+
+.answerGroup button.btn:last-of-type {
+  margin-left: 10px; }
+
+.answerGroup button.btn:focus,
+.answerGroup button.btn:hover {
+  background-color: #5B799B;
+  color: #ffffff;
+  -webkit-transition: all 500ms ease-in;
+  -ms-transition: all 500ms ease-in;
+  transition: all 500ms ease-in; }
+
+#quiz_next_button,
+#try_again {
+  margin: 10px auto;
+  display: block; }
+
+.challenges .btn.btn-calendar {
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  padding: 6px 12px;
+  color: #1c3a5e;
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #3f628b;
+  float: right;
+  display: table; }
+
+.btn-calendar .calendarIcon {
+  width: 20px;
+  height: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  background-image: url(/app/assets/images/calendar-icon-2x.png);
+  background-repeat: no-repeat;
+  background-size: 20px 40px;
+  background-position: 0 0; }
+
+.btn-calendar .calendarAdd {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 6px; }
+
+.challenges .btn.btn-calendar:focus,
+.challenges .btn.btn-calendar:hover {
+  background-color: #3e5269;
+  color: #ffffff;
+  border: 1px solid #3e5269;
+  -webkit-transition: all 500ms ease-in;
+  -ms-transition: all 500ms ease-in;
+  transition: all 500ms ease-in; }
+
+.challenges .btn.btn-calendar:focus .calendarIcon,
+.challenges .btn.btn-calendar:hover .calendarIcon {
+  background-position: 0px -20px; }
+
+.challenges .btn.btn-challenge {
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 28px;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 15px;
+  color: #ffffff;
+  background-color: #5B799B;
+  border-radius: 0; }
+
+.challenges .btn.btn-challenge:focus,
+.challenges .btn.btn-challenge:hover {
+  background-color: #3e5269;
+  -webkit-transition: background-color 500ms ease-in;
+  -ms-transition: background-color 500ms ease-in;
+  transition: background-color 500ms ease-in; }
+
+@media (max-width: 1200px) {
+  .answerGroup button.btn {
+    width: 45%; }
+  .challenges .btn.btn-calendar {
+    float: none; } }
+
+@media (max-width: 650px) {
+  .challenges .btn.btn-calendar {
+    float: none;
+    margin-bottom: 10px; }
+  #quiz_next_button,
+  #try_again {
+    width: auto; } }
+
+@media (max-width: 500px) {
+  .programs button.btn,
+  .programBox .titleArea h3,
+  .challenges .btn.btn-challenge {
+    font-size: 28px;
+    padding: 20px; }
+  .programBox .titleArea h3 {
+    padding-right: 47px;
+    padding-left: 47px; }
+  .answerGroup button.btn {
+    font-size: 22px;
+    line-height: 20px;
+    padding: 10px; }
+  #quiz_next_button,
+  #try_again {
+    width: auto; } }
+
+@media (max-width: 430px) {
+  .programs button.btn,
+  .programBox .titleArea h3,
+  .challenges .btn.btn-challenge {
+    font-size: 24px;
+    padding: 15px; }
+  .programBox .titleArea h3 {
+    padding-right: 47px;
+    padding-left: 47px; }
+  #quiz_next_button,
+  #try_again {
+    width: auto; } }
+
+@media (max-width: 390px) {
+  .programs button.btn,
+  .programBox .titleArea h3,
+  .challenges .btn.btn-challenge {
+    font-size: 20px; }
+  .programBox .titleArea h3 {
+    padding-right: 47px;
+    padding-left: 47px; }
+  .answerGroup button.btn {
+    font-size: 18px;
+    line-height: 16px;
+    padding: 8px;
+    width: 45%; }
+  .answerGroup button.btn:first-of-type {
+    margin-right: 5px; }
+  .answerGroup button.btn:last-of-type {
+    margin-left: 5px; }
+  #quiz_next_button,
+  #try_again {
+    width: auto; } }
+
+@media (max-width: 370px) {
+  .programs button.btn,
+  .programBox .titleArea h3 {
+    font-size: 18px;
+    padding: 12px;
+    letter-spacing: 0.04em; }
+  .programBox .titleArea h3 {
+    padding-right: 47px;
+    padding-left: 47px; }
+  .challenges .btn.btn-challenge {
+    font-size: 16px;
+    padding: 8px;
+    letter-spacing: 0.04em; }
+  #quiz_next_button,
+  #try_again {
+    width: auto; } }
+
+/* -------------------------------------- ticker -------------------------------------- */
+#tipTicker,
+#questionTicker,
+.challengeTicker {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px; }
+
+#questionTicker {
+  background-color: #273f6b;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 5px 8px; }
+
+.challengeTicker {
+  display: inline;
+  padding: 5px 10px;
+  color: white;
+  background-color: #273f6b;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+/* ------------------------------------ calendar dropdown ----------------------------*/
+.calendar-button-container {
+  position: relative; }
+
+.calendar-dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 33px;
+  width: 182px;
+  list-style: none outside none;
+  padding: 0;
+  margin: 0;
+  z-index: 1000;
+  background-color: #5B799B;
+  color: #ffffff; }
+
+.challenges .btn.btn-calendar-dropdown {
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  width: 100%;
+  padding: 6px 12px;
+  color: #ffffff;
+  background-color: #5B799B;
+  border-radius: 0;
+  text-align: left; }
+
+.challenges .btn.btn-calendar-dropdown:focus,
+.challenges .btn.btn-calendar-dropdown:hover {
+  background-color: #3e5269;
+  -webkit-transition: background-color 500ms ease-in;
+  -ms-transition: background-color 500ms ease-in;
+  transition: background-color 500ms ease-in; }
+
+@media (max-width: 1200px) {
+  .calendar-dropdown-menu {
+    right: auto;
+    left: 0; } }
+
+/* -------------------------------------- overrides -------------------------------------- */
+.slidetoggle-enter-active {
+  height: 100%;
+  transition: height .3s ease; }
+
+.slidetoggle-leave-active {
+  height: 100%;
+  transition: height .3s ease; }
+
+.slidetoggle-enter, .slidetoggle-leave-to {
+  height: 0px; }
+
+.programBox {
+  overflow: hidden; }
+
+.input.is-danger, .textarea.is-danger {
+  border-color: #ff3860; }
+
+.help.is-danger {
+  color: #ff3860; }
+
+.help {
+  display: block;
+  font-size: 11px;
+  margin-top: 5px; }
+
+/* Livehelp Popup */
+#backgroundPopup {
+  display: none;
+  position: fixed;
+  _position: absolute;
+  /* hack for internet explorer 6*/
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000000;
+  border: 1px solid #cecece;
+  z-index: 1; }
+
+#popup-message-window {
+  display: none;
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  width: 300px !important;
+  height: 330px !important;
+  margin-top: -175px;
+  margin-left: -150px;
+  background: white;
+  border: 6px solid lightgray;
+  border-radius: 10px;
+  z-index: 9999;
+  padding: 0px !important;
+  overflow: unset !important; }
+
+#popup-message-window p {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300; }
+
+#popup-message-window .popup-message-title {
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+  background-color: #737373 !important;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 24px !important;
+  letter-spacing: .13em !important;
+  text-align: center !important;
+  color: #FFF !important;
+  margin: 0 !important;
+  padding: 20px !important;
+  text-transform: uppercase !important;
+  width: 100% !important;
+  margin-top: -18px !important; }
+
+#popup-message-close {
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: #087599;
+  color: white;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background-image: url("/app/assets/images/x-white.png");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer; }
+
+#popup-message-close:focus,
+#popup-message-close:hover {
+  background-color: blue; }
+
+#popup-message-content {
+  padding: 20px 15px; }
+
+#popup-message-content .livehelp_icon {
+  width: 100px;
+  height: 130px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px; }
+
+#popup-message-window .btn {
+  cursor: pointer;
+  height: 40px;
+  margin-top: 20px; }
+
+#popup-message-window button:hover {
+  background-color: #064d80; }
+
+#popup-message-window button {
+  cursor: pointer;
+  height: 40px;
+  margin-top: 20px;
+  width: 100%;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .02em;
+  padding: 8px 18px;
+  border: 1px solid #087599;
+  border-radius: 0;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #087599; }
+
+#popup-message-window.in {
+  display: block; }
+
+/* V2 */
+.subhead {
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 28px; }
+
+.choose-one {
+  font-size: 17px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-bottom: 15px; }
+
+.choose-one .circle {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4670a0;
+  margin: 0px 5px; }
+
+.programs button.btn .arrow {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 49px solid transparent;
+  border-bottom: 49px solid transparent;
+  border-left: 40px solid #7aa1cf; }
+
+.programs button.btn .btn-emphasis {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase; }
+
+.programs button.btn.btn-small {
+  text-align: center;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 16px;
+  font-weight: 700;
+  padding: 4px 8px;
+  text-transform: uppercase; }
+
+.programs button#programPracticeButton {
+  background-color: #395b8a; }
+
+.programs button#programQuitButton {
+  background-color: #2a4471; }
