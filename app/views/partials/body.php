@@ -1,8 +1,8 @@
 <main>
     <div 
         id="app"
-        class="container">
-        <div class="row somethingNew">
+        class="container element-visible" data-gtm="For More Help Quitting">
+        <div class="row somethingNew element-visible" data-gtm="Try a Text Program to Quit">
             <div class="col-lg-4 col-md-5 col-sm-12">
                 <h2>TRY A TEXT PROGRAM TO QUIT</h2>
                 <p>Try a text message program that fits where you are in your quit journey. You’ll receive texts with tips and encouragement to keep you on track.</p>
@@ -260,7 +260,7 @@
                     </transition>
                     <button 
                         class="btn try-something-new-btn" 
-                        id="programChallengeButton" 
+                        id="programChallengeButton"  data-gtm="button-i want to try a small step"
                         onclick="makeFloodlightTagCall('DC-4345482/CTP/posev00+standard')" 
                         v-on:click="show_program_challenge = !show_program_challenge">
                         <div class="arrow hidden-xs"></div>
@@ -268,7 +268,7 @@
                     </button>
                     <button 
                         class="btn try-something-new-btn" 
-                        id="programPracticeButton" 
+                        id="programPracticeButton" data-gtm="button-i want to practice quitting"
                         onclick="makeFloodlightTagCall('DC-4345482/CTP/posev001+standard')" 
                         v-on:click="show_program_practice = !show_program_practice">
                         <div class="arrow hidden-xs"></div>
@@ -279,7 +279,7 @@
                     </button>
                     <button 
                         class="btn try-something-new-btn" 
-                        id="programQuitButton" 
+                        id="programQuitButton" data-gtm="button-im ready to quit for good"
                         onclick="makeFloodlightTagCall('DC-4345482/CTP/posev003+standard')" 
                         v-on:click="show_program_quit = !show_program_quit">
                         <div class="arrow hidden-xs"></div>
@@ -292,7 +292,7 @@
             </div> <!-- /.col-lg-6 /.col-lg-offset-1 /.col-md-6 /.col-sm-12 -->
         </div> <!-- /.row /.somethingNew-->
 
-        <div class="row video">
+        <div class="row video element-visible" data-gtm="Quitting Smoking Takes Practice">
             <div class="topShadow"></div>
             <div class="col-lg-3 col-md-4 col-sm-12">
                 <h2>QUITTING SMOKING TAKES PRACTICE</h2>
@@ -306,7 +306,7 @@
                 </div>
             </div>
         </div>
-        <div class="row tips">
+        <div class="row tips element-visible" data-gtm="Deal with Cravings">
             <div class="col-lg-5 col-md-6 col-sm-12">
                 <h2>Deal With Cravings</h2>
                 <p>
@@ -382,7 +382,7 @@
             </div> <!-- /.col-lg-6 /.col-lg-offset-1 /.col-md-6 /.col-sm-12 -->
         </div> <!-- /.row /.tips -->
 
-        <div class="row challenges">
+        <div class="row challenges element-visible" data-gtm="Quit with Nicotine Replacement Therapy">
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <h2>QUIT WITH NICOTINE REPLACEMENT THERAPY</h2>
                 <p>
@@ -443,7 +443,7 @@
             </div> <!-- /.col-lg-6 /.col-md-6 /.col-sm-12 -->
         </div> <!-- /.row /.challenges -->
 
-        <div class="row questions">
+        <div class="row questions element-visible" data-gtm="How does smoking harm your body?">
             <div class="topShadow"></div> <!-- Top Shadow -->
             <div class="col-lg-5 col-md-6 col-sm-12">
                 <h2>How Does Smoking Harm Your Body?</h2>
@@ -531,7 +531,7 @@
             </div> <!-- /.col-lg-6 /.col-lg-offset-1 /.col-md-6 /.col-sm-12 -->
             <div class="bottomShadow"></div> <!-- Bottom Shadow -->
         </div> <!-- /.row /.questions -->
-        <div class="row app">
+        <div class="row app element-visible" data-gtm="Quit with a Free App">
             <div class="col-lg-12">
                 <h2>Quit With a Free App</h2>
             </div> <!-- /.col-lg-12 -->
@@ -541,7 +541,7 @@
                 </p>
                 <div class="appDownloads">
                     <a 
-                        class="ios" 
+                        class="ios" data-gtm="button-available on apple store"
                         href="https://itunes.apple.com/app/apple-store/id411766556?pt=564700&ct=EveryTry&mt=8">
                         <img 
                             onclick="makeFloodlightTagCall('DC-4345482/CTP/posev006+standard')" 
@@ -549,7 +549,7 @@
                             alt="Available on the Apple App Store" />
                     </a>
                     <a 
-                        class="android" 
+                        class="android" data-gtm="button-android app on google play"
                         href="https://play.google.com/store/apps/details?id=com.mmgct.quitguide2&referrer=utm_source%3DFDA%26utm_medium%3DWebsite%26utm_campaign%3DEveryTry">
                         <img 
                             onclick="makeFloodlightTagCall('DC-4345482/CTP/posev007+standard')" 
@@ -561,7 +561,7 @@
             <div class="col-lg-6 col-lg-offset-1 col-md-6 col-sm-12">
                 <div class="quitGuide">
                     <p>
-                        <a href="https://smokefree.gov/tools-tips/apps/quitguide">QuitGuide</a> helps you:
+                        <a data-gtm="button-quit guide" href="https://smokefree.gov/tools-tips/apps/quitguide">QuitGuide</a> helps you:
                     </p>
                     <ul>
                         <li>Track cravings by time and location</li>
