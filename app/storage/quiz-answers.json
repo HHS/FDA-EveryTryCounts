@@ -9,13 +9,13 @@
     {
       "node": {
         "field_number_correct": "1",
-        "field_result_message": "You got 1 out of 7 correct. That’s okay! Use your new knowledge to help you quit. Every Try Counts."
+        "field_result_message": "You got 1 out of 7 correct. That’s okay! Use your new knowledge to start your quit plan below. Remember, every try counts."
       }
     },
     {
       "node": {
         "field_number_correct": "2",
-        "field_result_message": "You got 2 out of 7 correct. That’s okay! Use your new knowledge to help you quit. Every Try Counts."
+        "field_result_message": "You got 2 out of 7 correct. That’s okay! Use your new knowledge to start your quit plan below. Remember, every try counts."
       }
     },
     {
@@ -27,7 +27,7 @@
     {
       "node": {
         "field_number_correct": "4",
-        "field_result_message": "You got 4 out of 7 correct. Know the facts and use them as motivation to quit! Every Try Counts."
+        "field_result_message": "You got 4 out of 7 correct. Great score! Looks like you’re ready to start your quit plan below. Remember, every try counts."
       }
     },
     {
@@ -39,13 +39,13 @@
     {
       "node": {
         "field_number_correct": "6",
-        "field_result_message": "You got 6 out of 7 correct. Great score! Remember, every try counts. We can help! Every Try Counts."
+        "field_result_message": "You got 6 out of 7 correct. Great score! Looks like you’re ready to start your quit plan below. Remember, every try counts."
       }
     },
     {
       "node": {
         "field_number_correct": "7",
-        "field_result_message": "You got 7 out of 7 correct. Perfect score! Remember, every try counts. We can help! Every Try Counts."
+        "field_result_message": "You got 7 out of 7 correct. Great score! Looks like you’re ready to start your quit plan below. Remember, every try counts."
       }
     }
   ]
