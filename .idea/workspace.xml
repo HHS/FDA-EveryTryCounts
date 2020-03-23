@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea796cb-a451-4310-bba8-40052b22b355" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="537" column="47" selection-start-line="537" selection-start-column="47" selection-end-line="537" selection-end-column="47" />
+            <state relative-caret-position="15">
+              <caret line="532" column="97" lean-forward="true" selection-start-line="532" selection-start-column="97" selection-end-line="532" selection-end-column="97" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -52,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nicotine-replacement-therapy.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nicotine-replacement-therapy.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="239">
@@ -104,8 +104,8 @@
       <find>explore nrt</find>
       <find>challengeContent</find>
       <find>body</find>
-      <find>chat</find>
       <find>start you</find>
+      <find>chat</find>
       <find>next fact</find>
     </findStrings>
     <replaceStrings>
@@ -129,8 +129,8 @@
         <option value="$PROJECT_DIR$/app/assets/css/style.css" />
         <option value="$PROJECT_DIR$/app/assets/js/app.js" />
         <option value="$PROJECT_DIR$/app/dist/bundle.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -216,12 +216,12 @@
       <updated>1584053178197</updated>
       <workItem from="1584053179985" duration="9620000" />
       <workItem from="1584556414505" duration="3089000" />
-      <workItem from="1584663687787" duration="13998000" />
+      <workItem from="1584663687787" duration="14054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26707000" />
+    <option name="totallyTimeSpent" value="26763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="713" extended-state="0" />
@@ -326,13 +326,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="537" column="47" selection-start-line="537" selection-start-column="47" selection-end-line="537" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="239">
+          <caret line="34" column="270" lean-forward="true" selection-start-line="34" selection-start-column="270" selection-end-line="34" selection-end-column="270" />
         </state>
       </provider>
     </entry>
@@ -343,10 +340,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="34" column="270" lean-forward="true" selection-start-line="34" selection-start-column="270" selection-end-line="34" selection-end-column="270" />
+        <state relative-caret-position="15">
+          <caret line="532" column="97" lean-forward="true" selection-start-line="532" selection-start-column="97" selection-end-line="532" selection-end-column="97" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
