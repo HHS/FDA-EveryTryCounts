@@ -163,10 +163,10 @@ new Vue({
                 this.current_daily_challenge_number++;
             }
             else {
-                window.location.href = '/tools-tips/how-to-quit/using-nicotine-replacement-therapy';
+                window.open('https://smokefree.gov/tools-tips/how-to-quit/using-nicotine-replacement-therapy', '_blank');
                 return;
             }
-            this.daily_challenge_next_button_text = this.current_daily_challenge_number == this.total_daily_challenges ? "LEARN MORE" : "NEXT FACT";
+            this.daily_challenge_next_button_text = this.current_daily_challenge_number == this.total_daily_challenges ? "Explore NRT Options" : "NEXT FACT";
         },
         /**
          * User moves to next crave tip. Simply increment

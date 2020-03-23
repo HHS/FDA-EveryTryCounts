@@ -224,13 +224,13 @@
                                         class="titleArea active" 
                                         id="programPracticeClose" 
                                         v-on:click="show_program_practice = !show_program_practice">
-                                        <h3>TRY A PRACTICE QUIT</h3>
+                                        <h3>TRY PRACTICING</h3>
                                     </button>
                                     <div class="programContent">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <p class="program-paragraph">
-                                                    Practice quitting for 1, 3, or 5 days at a time and build up to quitting for good.
+                                                    Take a step towards quitting. Get tips and encouragement when you sign up to practice quitting for 1, 3, or 5 days at a time.
                                                 </p>
                                             </div> <!-- /.col-md-6 -->
                                             <div class="col-md-6">
@@ -531,6 +531,9 @@
                                             </div> <!-- /.row -->
                                         </div> <!-- /.challengeTitle -->
                                         <p class="challengeContent">{{ challenge.node.body }}</p>
+                                        <p class="challengeContent">{{ challenge.node.subbody }}</p>
+                                        <p class="challengeContent">{{ challenge.node.sub2body }}</p>
+
                                         <button 
                                             v-bind:class="'btn btn-challenge current_challenge_' + current_daily_challenge_number" 
                                             onclick="makeFloodlightTagCall('DC-4345482/CTP/posev005+standard')" 
@@ -637,10 +640,10 @@
                                 </p>
                                 <div class="answerGroup">
                                     <button 
-                                        v-on:click="reset_quiz" 
+                                        href="https://smokefree.gov/build-your-quit-plan"
                                         class="btn" 
-                                        id="try_again">
-                                        Try Again
+                                        id="try_again" target="_blank" style="font-size: 15px!important;">
+                                        Start your quit plan
                                     </button>
                                 </div>
                             </div>
@@ -700,13 +703,13 @@
                     <div class="col-lg-6 col-md-7 col-sm-10 col-xs-12">
                         <h2>For More Help Quitting, Go To <a data-gtm="button-smokefree.gov" href="https://smokefree.gov/">Smokefree.gov</a></h2>
                         <ul class="list-unstyled">
-                            <li><a href="https://smokefree.gov/tools-tips" data-gtm="button-tools and tips">Tools &amp; Tips</a></li>
-                            <li><a href="https://smokefree.gov/quit-smoking/why-you-should-quit/benefits-of-quitting" data-gtm="button-benefits of quitting">Benefits of Quitting</a></li>
+                            <li><a href="hhttps://smokefree.gov/tools-tips/how-to-quit/explore-quit-methods" data-gtm="button-quit-methods" target="_blank">Explore Quit Methods</a></li>
+                            <li><a href="https://smokefree.gov/tools-tips" data-gtm="button-tools and tips" target="_blank">Tools &amp; Tips</a></li>
                             <li><a href="https://smokefree.gov/quitting-smoking" data-gtm="button-quitting smoking">Quitting Smoking</a></li>
-                            <li><a href="https://smokefree.gov/quit-smoking/getting-started/steps-to-manage-quit-day" data-gtm="button-steps to manage quit delay">Steps to Manage Quit Day</a></li>
-                            <li><a href="https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings" data-gtm="button-how to manage cravings">How to Manage Cravings</a></li>
-                            <li><a href="https://smokefree.gov/tools-tips/explore-quit-methods" data-gtm="button-explore quit methods">Explore Quit Methods</a></li>
-                            <li><a href="https://smokefree.gov/about-smokefree" data-gtm="button-aboutsmokefree.gov">About Smokefree.gov</a></li>
+                            <li><a href="https://smokefree.gov/quit-smoking/why-you-should-quit/benefits-of-quitting" data-gtm="button-benefits of quitting" target="_blank">Benefits of Quitting</a></li>
+                            <li><a href="https://smokefree.gov/challenges-when-quitting/cravings-triggers/how-manage-cravings" data-gtm="button-how to manage cravings" target="_blank">How to Manage Cravings</a></li>
+                            <li><a href="https://smokefree.gov/quit-smoking/getting-started/steps-to-manage-quit-day" data-gtm="button-steps to manage quit delay" target="_blank">Steps to Manage Quit Day</a></li>
+                            <li><a href="https://smokefree.gov/about-smokefree" data-gtm="button-aboutsmokefree.gov" target="_blank">About Smokefree.gov</a></li>
                         </ul>
                     </div> <!-- /.col-lg-6 /.col-md-7 /.col-sm-10 /.col-xs-12 -->
                 </div> <!-- /.row -->
