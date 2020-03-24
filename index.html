@@ -532,11 +532,11 @@
                                         </div> <!-- /.challengeTitle -->
                                         <div class="challengeContent">
                                           <p>  {{ challenge.node.body }} </p>
-
                                         <ul v-if="challenge.node.linkText">
-                                            <li> {{ challenge.node.linkText }} </li>
+                                            <a :href="challenge.node.link" target="_blank" id="linkText">
+                                               <li> {{ challenge.node.linkText }} </li>
+                                           </a>
                                             <li> {{ challenge.node.linkText2 }} </li>
-
                                         </ul>
                                         </div>
                                         <button 
@@ -555,11 +555,11 @@
                                         </div> <!-- /.challengeTitle -->
                                         <div class="challengeContent">
                                             <p>  {{ challenge.node.body }} </p>
-
                                         <ul v-if="challenge.node.linkText">
-                                           <li> {{ challenge.node.linkText }} </li>
+                                            <a :href="challenge.node.link" target="_blank" id="linkText">
+                                                <li> {{ challenge.node.linkText }} </li>
+                                            </a>
                                             <li> {{ challenge.node.linkText2 }} </li>
-
                                         </ul>
                                         </div>
 

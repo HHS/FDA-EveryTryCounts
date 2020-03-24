@@ -1599,7 +1599,7 @@ button {
   .programs button.btn,
   .programBox .titleArea h3,
   .challenges .btn.btn-challenge {
-    font-size: 20px; }
+    font-size: 16px; }
   .programBox .titleArea h3 {
     padding-right: 47px;
     padding-left: 47px; }
@@ -1885,3 +1885,11 @@ button {
 
 .programs button#programQuitButton {
   background-color: #2a4471; }
+
+#linkText {
+  color: #000000;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
