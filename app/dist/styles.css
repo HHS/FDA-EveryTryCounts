@@ -1553,7 +1553,7 @@ button {
 
 @media (max-width: 1200px) {
   .answerGroup button.btn {
-    width: 45%; }
+    width: auto; }
   .challenges .btn.btn-calendar {
     float: none; } }
 
