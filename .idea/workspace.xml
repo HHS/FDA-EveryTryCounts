@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea796cb-a451-4310-bba8-40052b22b355" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/storage/quiz-answers.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/storage/quiz-answers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2685">
+              <caret line="182" column="10" selection-start-line="182" selection-start-column="10" selection-end-line="182" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bundle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/dist/bundle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4020">
+              <caret line="268" column="23" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="704" column="131" selection-start-line="704" selection-start-column="131" selection-end-line="704" selection-end-column="131" />
+            <state relative-caret-position="97">
+              <caret line="538" lean-forward="true" selection-start-line="538" selection-end-line="538" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -25,64 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/scss/layout.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="947" column="30" lean-forward="true" selection-start-line="947" selection-end-line="948" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="954" column="4" selection-start-line="954" selection-start-column="4" selection-end-line="954" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="168" column="155" selection-start-line="168" selection-start-column="146" selection-end-line="168" selection-end-column="155" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="nicotine-replacement-therapy.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quiz-answers.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/storage/quiz-answers.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-224">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quiz-questions.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/storage/quiz-questions.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="bundle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/dist/bundle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="268" column="23" lean-forward="true" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="-427">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -91,12 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>quit with</find>
-      <find>container</find>
-      <find>quitguide</find>
-      <find>smokefree.gov</find>
-      <find>live</find>
-      <find>livehelp</find>
       <find>somethingnew</find>
       <find>element-visible</find>
       <find>ios</find>
@@ -109,7 +70,6 @@
       <find>Use your new knowledge to help you quit. Every Try Counts</find>
       <find>try again</find>
       <find>try</find>
-      <find>try_again</find>
       <find>tools &amp; tips</find>
       <find>tools &amp;</find>
       <find>window.location.href</find>
@@ -118,12 +78,20 @@
       <find>explore nrt</find>
       <find>challengeContent</find>
       <find>body</find>
-      <find>next fact</find>
-      <find>start you</find>
       <find>chat</find>
+      <find>next_daily_challenge</find>
+      <find>try_again</find>
+      <find>start you</find>
+      <find>next fact</find>
+      <find>challenge</find>
+      <find>title.body</find>
+      <find>bodys</find>
+      <find>secondBody</find>
+      <find>link</find>
     </findStrings>
     <replaceStrings>
       <replace>gtm-visibility</replace>
+      <replace>linkText</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -142,9 +110,9 @@
         <option value="$PROJECT_DIR$/app/assets/css/style.css" />
         <option value="$PROJECT_DIR$/app/assets/js/app.js" />
         <option value="$PROJECT_DIR$/app/dist/bundle.js" />
+        <option value="$PROJECT_DIR$/app/storage/quiz-answers.json" />
         <option value="$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/storage/quiz-answers.json" />
       </list>
     </option>
   </component>
@@ -187,12 +155,6 @@
               <item name="every-try-counts" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="every-try-counts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="every-try-counts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -230,12 +192,13 @@
       <updated>1584053178197</updated>
       <workItem from="1584053179985" duration="9620000" />
       <workItem from="1584556414505" duration="3089000" />
-      <workItem from="1584663687787" duration="15028000" />
+      <workItem from="1584663687787" duration="19578000" />
+      <workItem from="1585069210918" duration="3230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27737000" />
+    <option name="totallyTimeSpent" value="35517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="713" extended-state="0" />
@@ -244,11 +207,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27435064" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1187399" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20454545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18174475" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -270,6 +233,37 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2685">
+          <caret line="182" column="10" lean-forward="true" selection-start-line="182" selection-start-column="10" selection-end-line="182" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dist/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4020">
+          <caret line="268" column="23" lean-forward="true" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="206" selection-start-line="34" selection-start-column="206" selection-end-line="34" selection-end-column="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8100">
+          <caret line="540" column="54" lean-forward="true" selection-start-line="540" selection-start-column="54" selection-end-line="540" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9945">
@@ -295,13 +289,6 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/scss/layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="947" column="30" lean-forward="true" selection-start-line="947" selection-end-line="948" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -323,47 +310,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/scss/layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="947" column="30" lean-forward="true" selection-start-line="947" selection-end-line="948" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/dist/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="268" column="23" lean-forward="true" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="4020">
+          <caret line="268" column="23" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2685">
+          <caret line="182" column="10" selection-start-line="182" selection-start-column="10" selection-end-line="182" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/storage/quiz-questions.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
+    <entry file="file://$PROJECT_DIR$/app/storage/quiz-answers.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="168" column="155" selection-start-line="168" selection-start-column="146" selection-end-line="168" selection-end-column="155" />
+        <state relative-caret-position="15">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/storage/crave-tip.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/storage/copy.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-427">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="704" column="131" selection-start-line="704" selection-start-column="131" selection-end-line="704" selection-end-column="131" />
+        <state relative-caret-position="97">
+          <caret line="538" lean-forward="true" selection-start-line="538" selection-end-line="538" />
           <folding>
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/nicotine-replacement-therapy.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/quiz-answers.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>

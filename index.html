@@ -530,7 +530,15 @@
                                                 </div> <!-- /.col-lg-12 -->
                                             </div> <!-- /.row -->
                                         </div> <!-- /.challengeTitle -->
-                                        <p class="challengeContent">{{ challenge.node.body }}</p>
+                                        <div class="challengeContent">
+                                          <p>  {{ challenge.node.body }} </p>
+
+                                        <ul v-if="challenge.node.linkText">
+                                            <li> {{ challenge.node.linkText }} </li>
+                                            <li> {{ challenge.node.linkText2 }} </li>
+
+                                        </ul>
+                                        </div>
                                         <button 
                                             v-bind:class="'btn btn-challenge current_challenge_' + current_daily_challenge_number" 
                                             onclick="makeFloodlightTagCall('DC-4345482/CTP/posev005+standard')" 
@@ -545,11 +553,18 @@
                                         <div class="challengeTitle">
                                             <h3>{{ challenge.node.title }}</h3>
                                         </div> <!-- /.challengeTitle -->
-                                        <p class="challengeContent">
-                                            {{ challenge.node.body }}
-                                        </p>
-                                        <button 
-                                            class="btn btn-challenge" 
+                                        <div class="challengeContent">
+                                            <p>  {{ challenge.node.body }} </p>
+
+                                        <ul v-if="challenge.node.linkText">
+                                           <li> {{ challenge.node.linkText }} </li>
+                                            <li> {{ challenge.node.linkText2 }} </li>
+
+                                        </ul>
+                                        </div>
+
+                                        <button
+                                            class="btn btn-challenge"
                                             v-on:click="next_daily_challenge">
                                             {{ daily_challenge_next_button_text }}
                                         </button>
