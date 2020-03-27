@@ -147,8 +147,7 @@
                                                 <button 
                                                     id="start-now-daily-challenges" 
                                                     class="btn btn-signup" 
-                                                    type="button" 
-                                                    onclick="makeFloodlightTagCall('DC-4345482/CTP/posev000+standard')" 
+                                                    type="button"
                                                     v-on:click="errors.has('programchallengephone') ? null : send_text_signup(program_challenge_opt_in_path, program_challenge_phone);">
                                                     Start Now
                                                 </button>
@@ -229,8 +228,7 @@
                                                 <button 
                                                     id="start-now-practice-quitting" 
                                                     class="btn btn-signup" 
-                                                    type="button" 
-                                                    onclick="makeFloodlightTagCall('DC-4345482/CTP/posev002+standard')" 
+                                                    type="button"
                                                     v-on:click="errors.has('programpracticephone') ? null : send_text_signup(program_practice_opt_in_path, program_practice_phone);">
                                                     Start Now
                                                 </button>
@@ -310,8 +308,7 @@
                                                     <button 
                                                         id="start-now-quit-for-good" 
                                                         class="btn btn-signup" 
-                                                        type="button" 
-                                                        onclick="makeFloodlightTagCall('DC-4345482/CTP/posev004+standard')" 
+                                                        type="button"
                                                         v-on:click="errors.has('programquitphone') ? null : send_text_signup(program_quit_opt_in_path, program_quit_phone);">
                                                         Start Now
                                                     </button>
@@ -328,21 +325,20 @@
                                     </div> <!-- /.programContent -->
                                 </div> <!-- /.programBox /#programQuit -->
                             </transition>
+
                             <button 
                                 class="btn try-something-new-btn" 
                                 id="programChallengeButton"  data-gtm="button-i want to try a small step"
-                                onclick="makeFloodlightTagCall('DC-4345482/CTP/posev00+standard')" 
                                 v-on:click="show_program_challenge = !show_program_challenge">
                                 <div class="arrow hidden-xs"></div>
-                                <span class="btn-emphasis">I WANT TO TRY A SMALL STEP</span><br>Help me build skills to try quitting
+                                <span class="btn-emphasis" style="pointer-events: none">I WANT TO TRY A SMALL STEP</span><br>Help me build skills to try quitting
                             </button>
                             <button 
                                 class="btn try-something-new-btn" 
                                 id="programPracticeButton" data-gtm="button-i want to practice quitting"
-                                onclick="makeFloodlightTagCall('DC-4345482/CTP/posev001+standard')" 
                                 v-on:click="show_program_practice = !show_program_practice">
                                 <div class="arrow hidden-xs"></div>
-                                <span class="btn-emphasis">
+                                <span class="btn-emphasis" style="pointer-events: none">
                                     I Want to Practice Quitting
                                 </span>
                                 <br>Try it for a few days
@@ -350,10 +346,9 @@
                             <button 
                                 class="btn try-something-new-btn" 
                                 id="programQuitButton" data-gtm="button-im ready to quit for good"
-                                onclick="makeFloodlightTagCall('DC-4345482/CTP/posev003+standard')" 
                                 v-on:click="show_program_quit = !show_program_quit">
                                 <div class="arrow hidden-xs"></div>
-                                <span class="btn-emphasis">
+                                <span class="btn-emphasis" style="pointer-events: none">
                                     I’m Ready to Quit for Good
                                 </span>
                                 <br>Set a quit date
@@ -468,7 +463,7 @@
                                     enter-class="flipped"
                                     leave-active-class="hidden">
                                 <div 
-                                    class="card" 
+                                    class="card"
                                     v-for="challenge, index in all_daily_challenges" 
                                     v-if="index == current_daily_challenge_number - 1" 
                                     v-bind:key="index + '_challenge'">
@@ -493,13 +488,12 @@
                                         </ul>
                                         </div>
                                         <button 
-                                            v-bind:class="'btn btn-challenge current_challenge_' + current_daily_challenge_number" 
-                                            onclick="makeFloodlightTagCall('DC-4345482/CTP/posev005+standard')" 
+                                            v-bind:class="'btn btn-challenge current_challenge_' + current_daily_challenge_number"
                                             v-on:click="next_daily_challenge">
                                             {{ daily_challenge_next_button_text }}
                                         </button>
                                     </div> <!-- /.front -->
-                                    <div class="back">
+                                    <div class="back" >
                                         <div class="text-right challengeTicker">
                                             NRT Facts <span class="challengeCurrent">{{ current_daily_challenge_number }}</span>/<span class="challengeTotal">{{ total_daily_challenges }}</span>
                                         </div> <!-- /#tipTicker -->
@@ -629,7 +623,6 @@
                                 class="ios"
                                 href="https://itunes.apple.com/app/apple-store/id411766556?pt=564700&ct=EveryTry&mt=8">
                                 <img data-gtm="button-available on apple store"
-                                    onclick="makeFloodlightTagCall('DC-4345482/CTP/posev006+standard')" 
                                     src="/app/assets/images/apple-store-2x.png" 
                                     alt="Available on the Apple App Store" />
                             </a>
@@ -637,7 +630,6 @@
                                 class="android"
                                 href="https://play.google.com/store/apps/details?id=com.mmgct.quitguide2&referrer=utm_source%3DFDA%26utm_medium%3DWebsite%26utm_campaign%3DEveryTry">
                                 <img data-gtm="button-android app on google play"
-                                    onclick="makeFloodlightTagCall('DC-4345482/CTP/posev007+standard')" 
                                     src="/app/assets/images/google-store-2x.png"
                                     alt="Android App on Google Play" />
                             </a>
