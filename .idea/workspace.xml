@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea796cb-a451-4310-bba8-40052b22b355" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/js/vendor/floodlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/vendor/floodlight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/dist/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +43,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="333" column="54" selection-start-line="333" selection-start-column="45" selection-end-line="333" selection-end-column="54" />
+            <state relative-caret-position="267">
+              <caret line="697" column="17" lean-forward="true" selection-start-line="697" selection-start-column="17" selection-end-line="697" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -62,11 +59,8 @@
       <file leaf-file-name="floodlight.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/js/vendor/floodlight.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -75,8 +69,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>next fact</find>
-      <find>challenge</find>
       <find>title.body</find>
       <find>bodys</find>
       <find>secondBody</find>
@@ -105,6 +97,8 @@
       <find>makefloo</find>
       <find>makeflood</find>
       <find>btn-empha</find>
+      <find>online support</find>
+      <find>live online</find>
     </findStrings>
     <replaceStrings>
       <replace>gtm-visibility</replace>
@@ -233,12 +227,12 @@
       <workItem from="1584053179985" duration="9620000" />
       <workItem from="1584556414505" duration="3089000" />
       <workItem from="1584663687787" duration="19578000" />
-      <workItem from="1585069210918" duration="19941000" />
+      <workItem from="1585069210918" duration="20739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52228000" />
+    <option name="totallyTimeSpent" value="53026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="713" extended-state="0" />
@@ -250,8 +244,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24512987" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18174475" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24512987" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18174475" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -421,18 +415,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/js/vendor/floodlight.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="333" column="54" selection-start-line="333" selection-start-column="45" selection-end-line="333" selection-end-column="54" />
+        <state relative-caret-position="267">
+          <caret line="697" column="17" lean-forward="true" selection-start-line="697" selection-start-column="17" selection-end-line="697" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
