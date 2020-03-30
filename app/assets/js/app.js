@@ -3,6 +3,7 @@ import $ from "jquery";
 import jQuery from "jquery";
 import Settings from "./settings.js";
 
+console.log("DEBUGGING ----")
 console.log(Settings);
 
 window.$ = $;
