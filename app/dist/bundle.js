@@ -351,7 +351,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                 request.done(function(msg) {
                     console.log(msg);
                     console.log(vue);
-                    switch (vue.opt_in_path) {
+                    switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
                             vue.program_challenge_confirmation = vue.text_signup_confirmation_message;
                             break;
@@ -364,7 +364,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                     }
                 });
                 request.fail(function(jqXHR, textStatus) {
-                    switch (vue.opt_in_path) {
+                    switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
                             vue.program_challenge_confirmation = vue.text_signup_error_message;
                             break;
