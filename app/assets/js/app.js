@@ -233,7 +233,6 @@ new Vue({
                         break;
                 }
 
-                console.log(Settings.mobile_commons_url);
 
                 var request = $.ajax({
                     url: Settings.mobile_commons_url,
@@ -243,10 +242,7 @@ new Vue({
                     dataType: "html"
                 });
 
-                console.log(request);
-
                 request.done(function(msg) {
-                    console.log(msg);
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
                             vue.program_challenge_confirmation = Settings.text_signup_confirmation_message;
