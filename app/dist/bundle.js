@@ -105,9 +105,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-console.log("DEBUGGING ----")
-console.log(_settings_js__WEBPACK_IMPORTED_MODULE_2__["default"]);
-
 window.$ = jquery__WEBPACK_IMPORTED_MODULE_1___default.a;
 window.jQuery = jquery__WEBPACK_IMPORTED_MODULE_1___default.a;
 
@@ -359,7 +356,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                             break;
                     }
                 });
-                
+
                 request.fail(function(jqXHR, textStatus) {
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:

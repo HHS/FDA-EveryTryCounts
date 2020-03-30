@@ -3,9 +3,6 @@ import $ from "jquery";
 import jQuery from "jquery";
 import Settings from "./settings.js";
 
-console.log("DEBUGGING ----")
-console.log(Settings);
-
 window.$ = $;
 window.jQuery = jQuery;
 
@@ -257,7 +254,7 @@ new Vue({
                             break;
                     }
                 });
-                
+
                 request.fail(function(jqXHR, textStatus) {
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
