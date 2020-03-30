@@ -1,7 +1,7 @@
 import Vue from "vue";
 import $ from "jquery";
 import jQuery from "jquery";
-import Settings from "./settings";
+import Settings from "./settings.js";
 
 window.$ = $;
 window.jQuery = jQuery;
