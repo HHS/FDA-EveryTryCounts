@@ -86,9 +86,9 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./app/assets/js/App.js":
+/***/ "./app/assets/js/app.js":
 /*!******************************!*\
-  !*** ./app/assets/js/App.js ***!
+  !*** ./app/assets/js/app.js ***!
   \******************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -33814,13 +33814,13 @@ module.exports = g;
 
 /***/ 0:
 /*!**********************************************************************************!*\
-  !*** multi @babel/polyfill ./app/assets/js/App.js ./app/assets/scss/styles.scss ***!
+  !*** multi @babel/polyfill ./app/assets/js/app.js ./app/assets/scss/styles.scss ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! @babel/polyfill */"./node_modules/@babel/polyfill/lib/index.js");
-__webpack_require__(/*! ./app/assets/js/App.js */"./app/assets/js/App.js");
+__webpack_require__(/*! ./app/assets/js/app.js */"./app/assets/js/app.js");
 module.exports = __webpack_require__(/*! ./app/assets/scss/styles.scss */"./app/assets/scss/styles.scss");
 
 
