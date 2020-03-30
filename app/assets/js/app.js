@@ -236,8 +236,6 @@ new Vue({
                         break;
                 }
 
-                console.log(Settings.mobile_commons_url);
-
                 var request = $.ajax({
                     url: Settings.mobile_commons_url,
                     type: "POST",
@@ -247,10 +245,6 @@ new Vue({
                 });
 
                 request.done(function(msg) {
-                    console.log(msg);
-                    console.log(vue);
-                    console.log(this);
-                    console.log(vue.program_challenge_opt_in_path, vue.program_practice_opt_in_path, vue.program_quit_opt_in_path);
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
                             vue.program_challenge_confirmation = Settings.text_signup_confirmation_message;
@@ -263,6 +257,7 @@ new Vue({
                             break;
                     }
                 });
+                
                 request.fail(function(jqXHR, textStatus) {
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
