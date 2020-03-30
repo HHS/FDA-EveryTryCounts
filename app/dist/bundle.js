@@ -322,49 +322,52 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                 fields.opt_in_path = opt_in;
                 fields.person_phone = phone_number;
                 switch (opt_in) {
-                    case this.program_challenge_opt_in_path:
+                    case vue.program_challenge_opt_in_path:
                         fields.person_POS_DC_Hidden = 'ETC';
-                        this.show_program_challenge_submit = false;
+                        vue.show_program_challenge_submit = false;
                         break;
-                    case this.program_practice_opt_in_path:
+                    case vue.program_practice_opt_in_path:
                         fields.person_POS_PQ_Hidden = 'ETC';
-                        this.show_program_practice_submit = false;
+                        vue.show_program_practice_submit = false;
                         break;
-                    case this.program_quit_opt_in_path:
-                        this.show_program_quit_submit = false;
+                    case vue.program_quit_opt_in_path:
+                        vue.show_program_quit_submit = false;
                         break;
                 }
-                console.log(vue.mobile_commons_url);
+
+
                 var request = jquery__WEBPACK_IMPORTED_MODULE_1___default.a.ajax({
-                    url: vue.mobile_commons_url,
+                    url: _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].mobile_commons_url,
                     type: "POST",
                     data: fields,
                     opt_in_path: opt_in,
                     dataType: "html"
                 });
+
                 request.done(function(msg) {
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
-                            vue.program_challenge_confirmation = vue.text_signup_confirmation_message;
+                            vue.program_challenge_confirmation = _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].text_signup_confirmation_message;
                             break;
                         case vue.program_practice_opt_in_path:
-                            vue.program_practice_confirmation = vue.text_signup_confirmation_message;
+                            vue.program_practice_confirmation = _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].text_signup_confirmation_message;
                             break;
                         case vue.program_quit_opt_in_path:
-                            vue.program_quit_confirmation = vue.text_signup_confirmation_message;
+                            vue.program_quit_confirmation = _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].text_signup_confirmation_message;
                             break;
                     }
                 });
+
                 request.fail(function(jqXHR, textStatus) {
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
-                            vue.program_challenge_confirmation = vue.text_signup_error_message;
+                            vue.program_challenge_confirmation = _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].text_signup_error_message;
                             break;
                         case vue.program_practice_opt_in_path:
-                            vue.program_practice_confirmation = vue.text_signup_error_message;
+                            vue.program_practice_confirmation = _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].text_signup_error_message;
                             break;
                         case vue.program_quit_opt_in_path:
-                            vue.program_quit_confirmation = vue.text_signup_error_message;
+                            vue.program_quit_confirmation = _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].text_signup_error_message;
                             break;
                     }
                 });
