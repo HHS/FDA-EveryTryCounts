@@ -335,6 +335,8 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                         break;
                 }
 
+                console.log(_settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].mobile_commons_url);
+
                 var request = jquery__WEBPACK_IMPORTED_MODULE_1___default.a.ajax({
                     url: _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].mobile_commons_url,
                     type: "POST",

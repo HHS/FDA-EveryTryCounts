@@ -233,6 +233,8 @@ new Vue({
                         break;
                 }
 
+                console.log(Settings.mobile_commons_url);
+
                 var request = $.ajax({
                     url: Settings.mobile_commons_url,
                     type: "POST",
