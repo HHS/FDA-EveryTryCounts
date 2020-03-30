@@ -99,7 +99,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Settings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Settings */ "./app/assets/js/Settings.js");
+/* harmony import */ var _settings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./settings */ "./app/assets/js/settings.js");
 
 
 
@@ -145,9 +145,9 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
         program_practice_phone: "",
         program_quit_phone: "",
         show_calendar_dropdown: false,
-        program_challenge_opt_in_path: _Settings__WEBPACK_IMPORTED_MODULE_2__["default"].program_challenge_opt_in_path,
-        program_practice_opt_in_path: _Settings__WEBPACK_IMPORTED_MODULE_2__["default"].program_practice_opt_in_path,
-        program_quit_opt_in_path: _Settings__WEBPACK_IMPORTED_MODULE_2__["default"].program_quit_opt_in_path,
+        program_challenge_opt_in_path: _settings__WEBPACK_IMPORTED_MODULE_2__["default"].program_challenge_opt_in_path,
+        program_practice_opt_in_path: _settings__WEBPACK_IMPORTED_MODULE_2__["default"].program_practice_opt_in_path,
+        program_quit_opt_in_path: _settings__WEBPACK_IMPORTED_MODULE_2__["default"].program_quit_opt_in_path,
         btn_sm_1_example: false,
         btn_sm_2_example: false,
         btn_sm_3_example: false
@@ -159,7 +159,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
          * all_quiz_questions; Also populate total_quiz_questions.
          */
         jquery__WEBPACK_IMPORTED_MODULE_1___default.a.ajax({
-            url: _Settings__WEBPACK_IMPORTED_MODULE_2__["default"].quiz_questions_path,
+            url: _settings__WEBPACK_IMPORTED_MODULE_2__["default"].quiz_questions_path,
             method: 'GET',
             success: function (data) {
                 vue.all_quiz_questions = data.nodes;
@@ -175,7 +175,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
          * amount correct) and store in all_quiz_responses.
          */
         jquery__WEBPACK_IMPORTED_MODULE_1___default.a.ajax({
-            url: _Settings__WEBPACK_IMPORTED_MODULE_2__["default"].quiz_answers_path,
+            url: _settings__WEBPACK_IMPORTED_MODULE_2__["default"].quiz_answers_path,
             method: 'GET',
             success: function (data) {
                 vue.all_quiz_responses = data.nodes;
@@ -189,7 +189,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
          * also populate total_daily_challenges.
          */
         jquery__WEBPACK_IMPORTED_MODULE_1___default.a.ajax({
-            url: _Settings__WEBPACK_IMPORTED_MODULE_2__["default"].daily_challenges_path,
+            url: _settings__WEBPACK_IMPORTED_MODULE_2__["default"].daily_challenges_path,
             method: 'GET',
             success: function (data) {
                 vue.all_daily_challenges = data.nodes;
@@ -205,7 +205,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
          * populate total_crave_tips.
          */
         jquery__WEBPACK_IMPORTED_MODULE_1___default.a.ajax({
-            url: _Settings__WEBPACK_IMPORTED_MODULE_2__["default"].crave_tips_path,
+            url: _settings__WEBPACK_IMPORTED_MODULE_2__["default"].crave_tips_path,
             method: 'GET',
             success: function (data) {
                 vue.all_crave_tips = data.nodes;
@@ -401,9 +401,9 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 
 /***/ }),
 
-/***/ "./app/assets/js/Settings.js":
+/***/ "./app/assets/js/settings.js":
 /*!***********************************!*\
-  !*** ./app/assets/js/Settings.js ***!
+  !*** ./app/assets/js/settings.js ***!
   \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
