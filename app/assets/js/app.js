@@ -223,16 +223,16 @@ new Vue({
                 fields.opt_in_path = opt_in;
                 fields.person_phone = phone_number;
                 switch (opt_in) {
-                    case this.program_challenge_opt_in_path:
+                    case vue.program_challenge_opt_in_path:
                         fields.person_POS_DC_Hidden = 'ETC';
-                        this.show_program_challenge_submit = false;
+                        vue.show_program_challenge_submit = false;
                         break;
-                    case this.program_practice_opt_in_path:
+                    case vue.program_practice_opt_in_path:
                         fields.person_POS_PQ_Hidden = 'ETC';
-                        this.show_program_practice_submit = false;
+                        vue.show_program_practice_submit = false;
                         break;
-                    case this.program_quit_opt_in_path:
-                        this.show_program_quit_submit = false;
+                    case vue.program_quit_opt_in_path:
+                        vue.show_program_quit_submit = false;
                         break;
                 }
 
@@ -248,6 +248,7 @@ new Vue({
 
                 request.done(function(msg) {
                     console.log(msg);
+                    console.log(vue);
                     switch (vue.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
                             vue.program_challenge_confirmation = vue.text_signup_confirmation_message;
