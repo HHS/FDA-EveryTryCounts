@@ -1115,11 +1115,7 @@ p.quiz-results-message {
   -webkit-perspective: 800px;
   -moz-perspective: 800px;
   -o-perspective: 800px;
-  perspective: 800px;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;}
+  perspective: 800px; }
 
 #flipCard .card {
   width: 100%;
@@ -1491,7 +1487,8 @@ button {
 #quiz_next_button,
 #try_again {
   margin: 10px auto;
-  display: block; }
+  display: block;
+  font-size: 15px !important; }
 
 .challenges .btn.btn-calendar {
   font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -1557,7 +1554,7 @@ button {
 
 @media (max-width: 1200px) {
   .answerGroup button.btn {
-    width: auto; }
+    width: 45%; }
   .challenges .btn.btn-calendar {
     float: none; } }
 
@@ -1603,7 +1600,7 @@ button {
   .programs button.btn,
   .programBox .titleArea h3,
   .challenges .btn.btn-challenge {
-    font-size: 16px; }
+    font-size: 20px; }
   .programBox .titleArea h3 {
     padding-right: 47px;
     padding-left: 47px; }
@@ -1889,17 +1886,3 @@ button {
 
 .programs button#programQuitButton {
   background-color: #2a4471; }
-
-#linkText {
-  color: #000000;
-  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
-}
-@media (max-width: 390px) {
-  #linkText {
-    font-size: 17px;
-    line-height: 24px;
-  }
-}
