@@ -355,26 +355,26 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                     console.log(vue.program_challenge_opt_in_path, vue.program_practice_opt_in_path, vue.program_quit_opt_in_path);
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
-                            vue.program_challenge_confirmation = vue.text_signup_confirmation_message;
+                            vue.program_challenge_confirmation = _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].text_signup_confirmation_message;
                             break;
                         case vue.program_practice_opt_in_path:
-                            vue.program_practice_confirmation = vue.text_signup_confirmation_message;
+                            vue.program_practice_confirmation = _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].text_signup_confirmation_message;
                             break;
                         case vue.program_quit_opt_in_path:
-                            vue.program_quit_confirmation = vue.text_signup_confirmation_message;
+                            vue.program_quit_confirmation = _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].text_signup_confirmation_message;
                             break;
                     }
                 });
                 request.fail(function(jqXHR, textStatus) {
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
-                            vue.program_challenge_confirmation = vue.text_signup_error_message;
+                            vue.program_challenge_confirmation = _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].text_signup_error_message;
                             break;
                         case vue.program_practice_opt_in_path:
-                            vue.program_practice_confirmation = vue.text_signup_error_message;
+                            vue.program_practice_confirmation = _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].text_signup_error_message;
                             break;
                         case vue.program_quit_opt_in_path:
-                            vue.program_quit_confirmation = vue.text_signup_error_message;
+                            vue.program_quit_confirmation = _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].text_signup_error_message;
                             break;
                     }
                 });
