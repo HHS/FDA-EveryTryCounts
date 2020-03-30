@@ -338,6 +338,8 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                         break;
                 }
 
+                console.log(_settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].mobile_commons_url);
+
                 var request = jquery__WEBPACK_IMPORTED_MODULE_1___default.a.ajax({
                     url: _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].mobile_commons_url,
                     type: "POST",
@@ -347,7 +349,8 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                 });
 
                 request.done(function(msg) {
-                    switch (this.opt_in_path) {
+                    console.log(msg);
+                    switch (vue.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
                             vue.program_challenge_confirmation = vue.text_signup_confirmation_message;
                             break;
@@ -360,7 +363,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                     }
                 });
                 request.fail(function(jqXHR, textStatus) {
-                    switch (this.opt_in_path) {
+                    switch (vue.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
                             vue.program_challenge_confirmation = vue.text_signup_error_message;
                             break;
