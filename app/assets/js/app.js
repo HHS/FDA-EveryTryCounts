@@ -250,6 +250,7 @@ new Vue({
                     console.log(msg);
                     console.log(vue);
                     console.log(this);
+                    console.log(vue.program_challenge_opt_in_path, vue.program_practice_opt_in_path, vue.program_quit_opt_in_path);
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
                             vue.program_challenge_confirmation = vue.text_signup_confirmation_message;
