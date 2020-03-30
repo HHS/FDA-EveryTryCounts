@@ -337,14 +337,15 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                         this.show_program_quit_submit = false;
                         break;
                 }
-                console.log(vue.mobile_commons_url);
+
                 var request = jquery__WEBPACK_IMPORTED_MODULE_1___default.a.ajax({
-                    url: vue.mobile_commons_url,
+                    url: _settings_js__WEBPACK_IMPORTED_MODULE_2__["default"].mobile_commons_url,
                     type: "POST",
                     data: fields,
                     opt_in_path: opt_in,
                     dataType: "html"
                 });
+
                 request.done(function(msg) {
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:

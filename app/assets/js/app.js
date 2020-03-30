@@ -235,14 +235,15 @@ new Vue({
                         this.show_program_quit_submit = false;
                         break;
                 }
-                console.log(vue.mobile_commons_url);
+
                 var request = $.ajax({
-                    url: vue.mobile_commons_url,
+                    url: Settings.mobile_commons_url,
                     type: "POST",
                     data: fields,
                     opt_in_path: opt_in,
                     dataType: "html"
                 });
+
                 request.done(function(msg) {
                     switch (this.opt_in_path) {
                         case vue.program_challenge_opt_in_path:
