@@ -1094,7 +1094,14 @@ p.quiz-results-message {
   top: 0;
   left: 0;
   padding: 20px;
-  border-top: solid 1px gray; }
+  margin-top: 2rem;
+ }
+
+  @media (max-width: 550px) {
+  .question:first-child  {
+    margin-top: 1em;
+  }
+}
 
 /* -------------------------------------- Challenges -------------------------------------- */
 .challengeTitle {
@@ -1102,7 +1109,7 @@ p.quiz-results-message {
   min-height: 80px; }
 
 .challengeContent {
-  min-height: 310px;
+  /*min-height: 310px;*/
   overflow: hidden;
   padding-bottom: 30px; }
 
@@ -1154,7 +1161,7 @@ p.quiz-results-message {
 #flipCard .card .back {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   position: absolute;
   padding: 30px;
   -webkit-backface-visibility: hidden;
@@ -1172,18 +1179,33 @@ p.quiz-results-message {
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg); }
 
++@media (min-width: 520px) {
+
+  .challengeContent {
+    min-height: 310px;
+    padding-bottom: 20px;
+  }
+
+}
+
 @media (max-width: 520px) {
+  #flipCard .card .front,
+  #flipCard .card .back {
+    height: auto;
+    margin-bottom: 30px;
+  }
   #flipCard {
     height: 600px;
-    min-height: 600px; }
+    min-height: 600px;
+  margin-top: 5rem;}
   .challengeTitle {
-    max-height: 120px;
-    min-height: 120px;
-    height: 120px; }
+    height: auto; }
+  .challengeContent p {
+    margin-bottom: 3rem;
+  }
+}
   .challengeContent {
-    max-height: 340px;
-    min-height: 340px;
-    height: 340px;
+    min-height: none;
     padding: 0;
     margin: 0; } }
 
@@ -1463,8 +1485,8 @@ button {
   font-style: normal;
   line-height: 28px;
   text-transform: uppercase;
-  width: 47%;
-  padding: 15px;
+  width: 45%;
+  /*padding: 15px;*/
   color: #5B799B;
   background-color: #ffffff;
   border: 2px solid #5B799B;
@@ -1534,7 +1556,7 @@ button {
 
 .challenges .btn.btn-challenge {
   font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 900;
   font-style: normal;
   line-height: 28px;
@@ -1554,7 +1576,7 @@ button {
 
 @media (max-width: 1200px) {
   .answerGroup button.btn {
-    width: 45%; }
+    width: auto; }
   .challenges .btn.btn-calendar {
     float: none; } }
 
@@ -1565,12 +1587,16 @@ button {
   #quiz_next_button,
   #try_again {
     width: auto; } }
+@media (min-width: 500px) {
+  .btn-challenge {
+    margin-top: 3em;
+  }
 
 @media (max-width: 500px) {
   .programs button.btn,
   .programBox .titleArea h3,
   .challenges .btn.btn-challenge {
-    font-size: 28px;
+    font-size: 26px;
     padding: 20px; }
   .programBox .titleArea h3 {
     padding-right: 47px;
@@ -1600,7 +1626,7 @@ button {
   .programs button.btn,
   .programBox .titleArea h3,
   .challenges .btn.btn-challenge {
-    font-size: 20px; }
+    font-size: 16px; }
   .programBox .titleArea h3 {
     padding-right: 47px;
     padding-left: 47px; }
@@ -1627,7 +1653,7 @@ button {
     padding-right: 47px;
     padding-left: 47px; }
   .challenges .btn.btn-challenge {
-    font-size: 16px;
+    font-size: 20px;
     padding: 8px;
     letter-spacing: 0.04em; }
   #quiz_next_button,
@@ -1649,13 +1675,17 @@ button {
   padding: 5px 8px; }
 
 .challengeTicker {
-  display: inline;
+/*//display: inline;*/
   padding: 5px 10px;
   color: white;
   background-color: #273f6b;
   position: absolute;
   top: 0;
-  right: 0; }
+  right: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform:translate3d(0,0,0);
+}
 
 /* ------------------------------------ calendar dropdown ----------------------------*/
 .calendar-button-container {
@@ -1857,6 +1887,14 @@ button {
   color: #ffffff;
   background-color: #4670a0;
   margin: 0px 5px; }
+
+  #linkText {
+    color: #000000;
+    font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
 
 .programs button.btn .arrow {
   width: 0;

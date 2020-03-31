@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea796cb-a451-4310-bba8-40052b22b355" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/dist/bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/dist/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -34,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/dist/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-236">
-              <caret line="1565" column="14" selection-start-line="1565" selection-start-column="14" selection-end-line="1565" selection-end-column="14" />
+            <state relative-caret-position="15">
+              <caret line="1200" column="19" selection-start-line="1200" selection-start-column="19" selection-end-line="1200" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -52,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="738" column="17" selection-start-line="738" selection-start-column="17" selection-end-line="738" selection-end-column="17" />
+            <state relative-caret-position="113">
+              <caret line="476" column="70" selection-start-line="476" selection-start-column="56" selection-end-line="476" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#button#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -91,12 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>makeflood</find>
-      <find>btn-empha</find>
-      <find>online support</find>
-      <find>live online</find>
-      <find>send_text_signup</find>
-      <find>settings</find>
       <find>border-t</find>
       <find>all_quiz_responses.length</find>
       <find>front</find>
@@ -121,6 +113,12 @@
       <find>btn-chall</find>
       <find>console</find>
       <find>correct_answers</find>
+      <find>challengeticke</find>
+      <find>#try-</find>
+      <find>310</find>
+      <find>@media</find>
+      <find>btn-challen</find>
+      <find>challengetitle</find>
     </findStrings>
     <replaceStrings>
       <replace>gtm-visibility</replace>
@@ -150,10 +148,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/app/dist/bundle.js" />
-        <option value="$PROJECT_DIR$/app/dist/styles.css" />
         <option value="$PROJECT_DIR$/app/assets/css/vendor/animate.css" />
         <option value="$PROJECT_DIR$/app/assets/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/dist/styles.css" />
       </list>
     </option>
   </component>
@@ -259,7 +257,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63697000" />
+    <option name="totallyTimeSpent" value="65794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1272" height="713" extended-state="6" />
@@ -527,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dist/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="1565" column="14" selection-start-line="1565" selection-start-column="14" selection-end-line="1565" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/js/vendor/floodlight.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -571,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="738" column="17" selection-start-line="738" selection-start-column="17" selection-end-line="738" selection-end-column="17" />
+        <state relative-caret-position="113">
+          <caret line="476" column="70" selection-start-line="476" selection-start-column="56" selection-end-line="476" selection-end-column="70" />
           <folding>
             <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#button#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -581,6 +572,13 @@
             <element signature="e#46371#46376#0" expanded="true" />
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dist/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1200" column="19" selection-start-line="1200" selection-start-column="19" selection-end-line="1200" selection-end-column="19" />
         </state>
       </provider>
     </entry>
