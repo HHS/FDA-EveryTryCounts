@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea796cb-a451-4310-bba8-40052b22b355" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/dist/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +36,17 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dist/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="1864" lean-forward="true" selection-start-line="1864" selection-end-line="1869" selection-end-column="1" />
+            <state relative-caret-position="256">
+              <caret line="1348" column="27" lean-forward="true" selection-start-line="1348" selection-start-column="27" selection-end-line="1348" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -57,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="730" column="5" selection-start-line="730" selection-start-column="5" selection-end-line="730" selection-end-column="5" />
+            <state relative-caret-position="295">
+              <caret line="727" column="31" lean-forward="true" selection-start-line="727" selection-start-column="31" selection-end-line="727" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#button#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -124,8 +134,8 @@
       <find>@media</find>
       <find>btn-challen</find>
       <find>challengetitle</find>
-      <find>linktext</find>
       <find>link</find>
+      <find>linktext</find>
     </findStrings>
     <replaceStrings>
       <replace>gtm-visibility</replace>
@@ -271,7 +281,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65989000" />
+    <option name="totallyTimeSpent" value="66109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="25" width="1272" height="713" extended-state="0" />
@@ -283,8 +293,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32792208" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18536586" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32792208" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18536586" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -508,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -574,17 +577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dist/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="1864" lean-forward="true" selection-start-line="1864" selection-end-line="1869" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="730" column="5" selection-start-line="730" selection-start-column="5" selection-end-line="730" selection-end-column="5" />
+        <state relative-caret-position="295">
+          <caret line="727" column="31" lean-forward="true" selection-start-line="727" selection-start-column="31" selection-end-line="727" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#button#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -593,6 +589,20 @@
             <element signature="e#46371#46376#0" expanded="true" />
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dist/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="1348" column="27" lean-forward="true" selection-start-line="1348" selection-start-column="27" selection-end-line="1348" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
