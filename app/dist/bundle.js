@@ -239,14 +239,17 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
          * so display response that matches number correct.
          */
         next_quiz_question: function () {
+            console.log("starting question");
             this.answer_selected = "";
+            console.log(this.all_quiz_responses[2].node.field_result_message);
+
             if (this.current_quiz_question_number < this.total_quiz_questions) {
                 this.current_quiz_question_number++;
                 this.show_quiz_part="question";
             }
             else {
                 this.final_quiz_response = "You got " + this.correct_answers + " out of " + this.total_quiz_questions + " correct.";
-                for (i = 0; i < this.all_quiz_responses.length; i++) {
+                for (let i = 0; i < this.all_quiz_responses.length; i++) {
                     if (this.all_quiz_responses[i].node.field_number_correct == this.correct_answers) {
                         this.final_quiz_response = this.all_quiz_responses[i].node.field_result_message;
                     }
@@ -268,7 +271,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                 window.open('https://smokefree.gov/tools-tips/how-to-quit/using-nicotine-replacement-therapy', '_blank');
                 return;
             }
-            this.daily_challenge_next_button_text = this.current_daily_challenge_number == this.total_daily_challenges ? "Explore NRT Options" : "NEXT FACT";
+            this.daily_challenge_next_button_text = this.current_daily_challenge_number === this.total_daily_challenges ? "Explore NRT Options" : "NEXT FACT";
         },
         /**
          * User moves to next crave tip. Simply increment

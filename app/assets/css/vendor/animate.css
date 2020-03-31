@@ -13,6 +13,12 @@
   animation-fill-mode: both;
 }
 
+.fastAnimated {
+  animation-duration: .5s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
 .animated.infinite {
   animation-iteration-count: infinite;
 }

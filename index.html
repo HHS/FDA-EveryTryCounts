@@ -468,24 +468,22 @@
                                     v-if="index == current_daily_challenge_number - 1" 
                                     v-bind:key="index + '_challenge'">
                                     <div class="front">
-                                        <div class="text-right challengeTicker">
-                                            NRT Facts <span class="challengeCurrent">{{ current_daily_challenge_number }}</span>/<span class="challengeTotal">{{ total_daily_challenges }}</span>
-                                        </div> <!-- /#tipTicker -->
-                                        <div class="challengeTitle">
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <h3>{{ challenge.node.title }}</h3>
-                                                </div> <!-- /.col-lg-12 -->
-                                            </div> <!-- /.row -->
-                                        </div> <!-- /.challengeTitle -->
                                         <div class="challengeContent">
-                                          <p>  {{ challenge.node.body }} </p>
-                                        <ul v-if="challenge.node.linkText">
-                                            <a :href="challenge.node.link" target="_blank" id="linkText">
-                                               <li> {{ challenge.node.linkText }} </li>
-                                           </a>
-                                            <li> {{ challenge.node.linkText2 }} </li>
-                                        </ul>
+                                            <div class="text-right challengeTicker">
+                                                NRT Facts <span
+                                                    class="challengeCurrent">{{ current_daily_challenge_number }}</span>/<span
+                                                    class="challengeTotal">{{ total_daily_challenges }}</span>
+                                            </div> <!-- /#tipTicker -->
+                                            <div class="challengeTitle">
+                                                <h3>{{ challenge.node.title }}</h3>
+                                            </div>
+                                            <p> {{ challenge.node.body }} </p>
+                                            <ul v-if="challenge.node.linkText">
+                                                <a :href="challenge.node.link" target="_blank" id="linkText">
+                                                    <li> {{ challenge.node.linkText }}</li>
+                                                </a>
+                                                <li> {{ challenge.node.linkText2 }}</li>
+                                            </ul>
                                         </div>
                                         <button 
                                             v-bind:class="'btn btn-challenge current_challenge_' + current_daily_challenge_number"
@@ -494,22 +492,23 @@
                                         </button>
                                     </div> <!-- /.front -->
                                     <div class="back" >
-                                        <div class="text-right challengeTicker">
-                                            NRT Facts <span class="challengeCurrent">{{ current_daily_challenge_number }}</span>/<span class="challengeTotal">{{ total_daily_challenges }}</span>
-                                        </div> <!-- /#tipTicker -->
-                                        <div class="challengeTitle">
-                                            <h3>{{ challenge.node.title }}</h3>
-                                        </div> <!-- /.challengeTitle -->
                                         <div class="challengeContent">
-                                            <p>  {{ challenge.node.body }} </p>
-                                        <ul v-if="challenge.node.linkText">
-                                            <a :href="challenge.node.link" target="_blank" id="linkText">
-                                                <li> {{ challenge.node.linkText }} </li>
-                                            </a>
-                                            <li> {{ challenge.node.linkText2 }} </li>
-                                        </ul>
+                                            <div class="text-right challengeTicker">
+                                                NRT Facts <span
+                                                    class="challengeCurrent">{{ current_daily_challenge_number }}</span>/<span
+                                                    class="challengeTotal">{{ total_daily_challenges }}</span>
+                                            </div> <!-- /#tipTicker -->
+                                            <div class="challengeTitle">
+                                                <h3>{{ challenge.node.title }}</h3>
+                                            </div>
+                                            <p> {{ challenge.node.body }} </p>
+                                            <ul v-if="challenge.node.linkText">
+                                                <a :href="challenge.node.link" target="_blank" id="linkText">
+                                                    <li> {{ challenge.node.linkText }}</li>
+                                                </a>
+                                                <li> {{ challenge.node.linkText2 }}</li>
+                                            </ul>
                                         </div>
-
                                         <button
                                             class="btn btn-challenge"
                                             v-on:click="next_daily_challenge">
@@ -535,8 +534,8 @@
                         <div class="box whiteBox" v-cloak>
                             <transition-group
                                 name="custom-transition"
-                                enter-active-class="animated slideInUp"
-                                leave-active-class="animated slideOutUp"
+                                enter-active-class="fastAnimated slideInUp"
+                                leave-active-class="fastAnimated slideOutUp"
                                 tag="div"
                                 class="transition">
                                 <div 
@@ -698,17 +697,17 @@
         </footer>
 
 		<!--Add user agent related info to HTML tag -->
-        <!--<script>-->
-            <!--var b = document.documentElement;-->
-            <!--b.className = b.className.replace('no-js', 'js');-->
-            <!--b.setAttribute("data-useragent", navigator.userAgent);-->
-            <!--b.setAttribute("data-platform", navigator.platform);-->
-        <!--</script>-->
+        <script>
+            var b = document.documentElement;
+            b.className = b.className.replace('no-js', 'js');
+            b.setAttribute("data-useragent", navigator.userAgent);
+            b.setAttribute("data-platform", navigator.platform);
+        </script>
 
 
-		<!-- Scripts -->
+    <!-- Scripts -->
         <script src="app/assets/js/vendor/youtube-api.js"></script>
-        <!--<script src="app/assets/js/vendor/floodlight.js"></script>-->
+        <script src="app/assets/js/vendor/floodlight.js"></script>
         <script src="//unpkg.com/vee-validate@2.0.0-rc.7"></script>
         <script srf="app/assets/js/vendor/vee-validate.min.js"></script>
         <script src="app/dist/bundle.js"></script>
