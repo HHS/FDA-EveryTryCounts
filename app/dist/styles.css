@@ -1863,6 +1863,12 @@ button {
 #popup-message-window.in {
   display: block; }
 
+@media (max-width: 520px) {
+  #popup-message-window {
+    display: none;
+  }
+}
+
 /* V2 */
 .subhead {
   font-size: 24px;

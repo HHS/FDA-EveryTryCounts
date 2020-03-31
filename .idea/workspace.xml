@@ -32,12 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dist/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1200" column="19" selection-start-line="1200" selection-start-column="19" selection-end-line="1200" selection-end-column="19" />
+            <state relative-caret-position="77">
+              <caret line="1864" lean-forward="true" selection-start-line="1864" selection-end-line="1869" selection-end-column="1" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/js/vendor/popup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1178" />
           </provider>
         </entry>
       </file>
@@ -50,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="476" column="70" selection-start-line="476" selection-start-column="56" selection-end-line="476" selection-end-column="70" />
+            <state relative-caret-position="311">
+              <caret line="730" column="5" selection-start-line="730" selection-start-column="5" selection-end-line="730" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#button#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -89,8 +96,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>border-t</find>
-      <find>all_quiz_responses.length</find>
       <find>front</find>
       <find>question</find>
       <find>transi</find>
@@ -119,6 +124,8 @@
       <find>@media</find>
       <find>btn-challen</find>
       <find>challengetitle</find>
+      <find>linktext</find>
+      <find>link</find>
     </findStrings>
     <replaceStrings>
       <replace>gtm-visibility</replace>
@@ -150,8 +157,8 @@
         <option value="$PROJECT_DIR$/app/dist/bundle.js" />
         <option value="$PROJECT_DIR$/app/assets/css/vendor/animate.css" />
         <option value="$PROJECT_DIR$/app/assets/js/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/dist/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -212,6 +219,13 @@
               <item name="every-try-counts" type="b2602c69:ProjectViewProjectNode" />
               <item name="every-try-counts" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="every-try-counts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="every-try-counts" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -257,10 +271,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65794000" />
+    <option name="totallyTimeSpent" value="65989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1272" height="713" extended-state="6" />
+    <frame x="38" y="25" width="1272" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -560,10 +574,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/dist/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="1864" lean-forward="true" selection-start-line="1864" selection-end-line="1869" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="476" column="70" selection-start-line="476" selection-start-column="56" selection-end-line="476" selection-end-column="70" />
+        <state relative-caret-position="311">
+          <caret line="730" column="5" selection-start-line="730" selection-start-column="5" selection-end-line="730" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#button#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -572,13 +593,6 @@
             <element signature="e#46371#46376#0" expanded="true" />
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/dist/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1200" column="19" selection-start-line="1200" selection-start-column="19" selection-end-line="1200" selection-end-column="19" />
         </state>
       </provider>
     </entry>
