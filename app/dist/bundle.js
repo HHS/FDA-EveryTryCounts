@@ -253,7 +253,7 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
                 }
                 this.show_quiz_part="results";
             }
-            this.quiz_next_button_text = this.current_quiz_question_number == this.total_quiz_questions ? "RESULTS" : "Next";
+            this.quiz_next_button_text = this.current_quiz_question_number == this.total_quiz_questions ? "results" : "Next";
         },
         /**
          * User moves to next daily challenge. Simply increment

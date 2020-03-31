@@ -1094,7 +1094,14 @@ p.quiz-results-message {
   top: 0;
   left: 0;
   padding: 20px;
-  border-top: solid 1px gray; }
+  /*border-top: solid 1px gray; */
+}
+
+@media (max-width: 550px) {
+  .question:first-child  {
+    margin-top: 1em;
+  }
+}
 
 /* -------------------------------------- Challenges -------------------------------------- */
 .challengeTitle {
@@ -1102,7 +1109,6 @@ p.quiz-results-message {
   min-height: 80px; }
 
 .challengeContent {
-  min-height: 310px;
   overflow: hidden;
   padding-bottom: 30px; }
 
@@ -1115,7 +1121,11 @@ p.quiz-results-message {
   -webkit-perspective: 800px;
   -moz-perspective: 800px;
   -o-perspective: 800px;
-  perspective: 800px; }
+  perspective: 800px;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;}
 
 #flipCard .card {
   width: 100%;
@@ -1172,20 +1182,40 @@ p.quiz-results-message {
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg); }
 
+@media (min-width: 520px) {
+
+  .challengeContent {
+    min-height: 310px;
+    padding-bottom: 20px;
+  }
+
+}
 @media (max-width: 520px) {
+  #flipCard .card .front,
+  #flipCard .card .back {
+    height: auto;
+    margin-bottom: 30px;
+  }
   #flipCard {
     height: 600px;
-    min-height: 600px; }
+    min-height: 600px;
+    margin-top: 5rem;
+  }
   .challengeTitle {
-    max-height: 120px;
-    min-height: 120px;
-    height: 120px; }
+    /*max-height: 120px;*/
+    /*min-height: 120px;*/
+    height: auto; }
   .challengeContent {
-    max-height: 340px;
-    min-height: 340px;
-    height: 340px;
+    min-height: none;
+    /*max-height: 340px;*/
+    /*min-height: 340px;*/
+    /*height: 340px;*/
     padding: 0;
-    margin: 0; } }
+  }
+  .challengeContent p {
+    margin-bottom: 30px;
+  }
+}
 
 @media (max-width: 360px) {
   #flipCard {
@@ -1480,15 +1510,14 @@ button {
 .answerGroup button.btn:hover {
   background-color: #5B799B;
   color: #ffffff;
-  -webkit-transition: all 500ms ease-in;
-  -ms-transition: all 500ms ease-in;
-  transition: all 500ms ease-in; }
+  -webkit-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  transition: all 200ms ease-in; }
 
 #quiz_next_button,
 #try_again {
   margin: 10px auto;
-  display: block;
-  font-size: 15px !important; }
+  display: block; }
 
 .challenges .btn.btn-calendar {
   font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -1554,7 +1583,7 @@ button {
 
 @media (max-width: 1200px) {
   .answerGroup button.btn {
-    width: 45%; }
+    width: auto; }
   .challenges .btn.btn-calendar {
     float: none; } }
 
@@ -1566,7 +1595,10 @@ button {
   #try_again {
     width: auto; } }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
+  .btn-challenge {
+    margin-top: 3em;
+  }
   .programs button.btn,
   .programBox .titleArea h3,
   .challenges .btn.btn-challenge {
@@ -1600,7 +1632,7 @@ button {
   .programs button.btn,
   .programBox .titleArea h3,
   .challenges .btn.btn-challenge {
-    font-size: 20px; }
+    font-size: 16px; }
   .programBox .titleArea h3 {
     padding-right: 47px;
     padding-left: 47px; }
@@ -1648,14 +1680,27 @@ button {
   margin-bottom: 0;
   padding: 5px 8px; }
 
+/*.challengeTicker {*/
+  /*display: inline;*/
+  /*padding: 5px 10px;*/
+  /*color: white;*/
+  /*background-color: #273f6b;*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*right: 0; }*/
+
 .challengeTicker {
-  display: inline;
+/*//display: inline;*/
   padding: 5px 10px;
   color: white;
   background-color: #273f6b;
   position: absolute;
   top: 0;
-  right: 0; }
+  right: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform:translate3d(0,0,0);
+}
 
 /* ------------------------------------ calendar dropdown ----------------------------*/
 .calendar-button-container {
@@ -1699,12 +1744,12 @@ button {
 
 /* -------------------------------------- overrides -------------------------------------- */
 .slidetoggle-enter-active {
-  height: 100%;
-  transition: height .3s ease; }
+  height: 50%;
+  transition: height .1s; }
 
 .slidetoggle-leave-active {
-  height: 100%;
-  transition: height .3s ease; }
+  height: 50%;
+  transition: height .1s; }
 
 .slidetoggle-enter, .slidetoggle-leave-to {
   height: 0px; }
@@ -1886,3 +1931,17 @@ button {
 
 .programs button#programQuitButton {
   background-color: #2a4471; }
+
+#linkText {
+  color: #000000;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+@media (max-width: 390px) {
+  #linkText {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
