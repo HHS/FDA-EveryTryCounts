@@ -532,7 +532,11 @@ p.quiz-results-message {
 	top: 0;
 	left: 0;
 	padding: 20px;
-	border-top: solid 1px gray;
+}
+@media (max-width: 550px) {
+	.question:first-child  {
+		margin-top: 1em;
+	}
 }
 /* -------------------------------------- Challenges -------------------------------------- */
 .challengeTitle {
@@ -540,7 +544,7 @@ p.quiz-results-message {
 	min-height:80px;
 }
 .challengeContent {
-	min-height:310px;
+	//min-height:310px;
 	overflow: hidden;
 	padding-bottom: 30px;
 }
@@ -592,7 +596,7 @@ p.quiz-results-message {
 #flipCard .card .back {
 	display: block;
 	width: 100%;
-	height: 100%;
+	height: auto;
 	position: absolute;
 	padding: 30px;
 	-webkit-backface-visibility: hidden;
@@ -610,22 +614,36 @@ p.quiz-results-message {
 	-o-transform: rotateY( 180deg );
 	transform: rotateY( 180deg );
 }
+@media (min-width: 520px) {
+	.challengeContent {
+		min-height: 310px;
+		padding-bottom: 20px;
+	}
+}
 @media (max-width: 520px) {
+	#flipCard .card .front,
+	#flipCard .card .back {
+		height: auto;
+		margin-bottom: 30px;
+	}
 	#flipCard {
 		height: 600px;
 		min-height: 600px;
+		margin-bottom: 2rem;
+		margin-top: 3rem;
 	}
 	.challengeTitle {
-		max-height: 120px;
-		min-height: 120px;
-		height: 120px;
+		height: auto;
 	}
 	.challengeContent {
-		max-height: 340px;
-		min-height: 340px;
-		height: 340px;
-		padding: 0;
-		margin: 0;
+		min-height: none;
+		padding-bottom: 0;
+	}
+	.challengeContent p {
+		margin-bottom: 30px;
+	}
+	.challengeContent ul {
+		margin-bottom: 30px;
 	}
 }
 @media (max-width: 360px) {
@@ -920,7 +938,7 @@ button {
 	font-style: normal;
 	line-height: 28px;
 	text-transform: uppercase;
-	width:47%;
+	width:45%;
 	padding:15px;
 	color: #5B799B;
 	background-color: #ffffff;
@@ -937,15 +955,14 @@ button {
 .answerGroup button.btn:hover {
 	background-color:#5B799B;
 	color:#ffffff;
-	-webkit-transition: all 500ms ease-in;
-	-ms-transition: all 500ms ease-in;
-	transition: all 500ms ease-in;
+	-webkit-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	transition: all 200ms ease-in;
 }
 #quiz_next_button,
 #try_again {
 	margin:10px auto;
 	display: block;
-	font-size: 15px!important;
 }
 .challenges .btn.btn-calendar {
 	font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -991,7 +1008,7 @@ button {
 }
 .challenges .btn.btn-challenge {
 	font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-size: 24px;
+	font-size: 16px;
 	font-weight: 900;
 	font-style: normal;
 	line-height: 28px;
@@ -1010,9 +1027,11 @@ button {
 	transition: background-color 500ms ease-in;
 }
 
+
+
 @media (max-width: 1200px) {
 	.answerGroup button.btn {
-		width:45%;
+		width:auto;
 	}
 	.challenges .btn.btn-calendar {
 		float:none;
@@ -1026,6 +1045,12 @@ button {
 	#quiz_next_button,
 	#try_again {
 		width:auto;
+	}
+}
+
+@media (min-width: 500px) {
+	.btn-challenge {
+		margin-top: 3em;
 	}
 }
 @media (max-width: 500px) {
@@ -1069,7 +1094,7 @@ button {
 	.programs button.btn,
 	.programBox .titleArea h3,
 	.challenges .btn.btn-challenge{
-		font-size:20px;
+		font-size:16px;
 	}
 	.programBox .titleArea h3 {
 		padding-right: 47px;
@@ -1090,6 +1115,9 @@ button {
 	#quiz_next_button,
 	#try_again {
 		width:auto;
+	}
+	.challenges .btn.btn-challenge {
+		font-size: 16px;
 	}
 }
 @media (max-width: 370px) {
@@ -1128,13 +1156,30 @@ button {
 	padding: 5px 8px;
 }
 .challengeTicker {
-	display: inline;
+	//display: inline;
 	padding: 5px 10px;
 	color: white;
 	background-color: #273f6b;
 	position: absolute;
 	top: 0;
 	right: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform:translate3d(0,0,0);
+}
+
+#linkText {
+	color: #000000;
+	font-family: "Muli", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+}
+@media (max-width: 390px) {
+	#linkText {
+		font-size: 17px;
+		line-height: 24px;
+	}
 }
 
 /* ------------------------------------ calendar dropdown ----------------------------*/
@@ -1181,11 +1226,11 @@ button {
 /* -------------------------------------- overrides -------------------------------------- */
 .-enter-active {
 	height: 100%;
-	transition: height .3s ease;
+	transition: height .2s;
 }
 .slidetoggle-leave-active {
 	height: 100%;
-	transition: height .3s ease;
+	transition: height .2s;
 }
 .slidetoggle-enter, .slidetoggle-leave-to {
 	height: 0px;
@@ -1317,6 +1362,11 @@ button {
 }
 #popup-message-window.in {
 	display: block;
+}
+@media (max-width: 520px) {
+	#popup-message-window {
+		display: none;
+	}
 }
 
 /* V2 */
