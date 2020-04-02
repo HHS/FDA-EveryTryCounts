@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea796cb-a451-4310-bba8-40052b22b355" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/scss/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scss/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layout.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/scss/layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="1059" column="20" selection-start-line="1059" selection-start-column="20" selection-end-line="1059" selection-end-column="20" />
+            <state relative-caret-position="138">
+              <caret line="1157" column="16" selection-start-line="1157" selection-start-column="1" selection-end-line="1157" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -34,8 +35,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dist/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="1581" column="24" lean-forward="true" selection-start-line="1581" selection-start-column="24" selection-end-line="1581" selection-end-column="24" />
+            <state relative-caret-position="163">
+              <caret line="1581" column="24" selection-start-line="1581" selection-start-column="24" selection-end-line="1581" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -44,16 +45,16 @@
         <entry file="file://$PROJECT_DIR$/app/assets/css/vendor/animate.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="249">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1154">
-              <caret line="716" lean-forward="true" selection-start-line="716" selection-end-line="716" />
+            <state relative-caret-position="211">
+              <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#button#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -70,11 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>animated</find>
-      <find>challengec</find>
-      <find>challenges</find>
-      <find>550</find>
-      <find>btn-chall</find>
       <find>console</find>
       <find>challengeticke</find>
       <find>#try-</find>
@@ -86,7 +82,6 @@
       <find>.btn.btn-challenge</find>
       <find>.question</find>
       <find>#flipcard</find>
-      <find>challengeTicker</find>
       <find>challengeContent</find>
       <find>.answergroup</find>
       <find>.answerGroup</find>
@@ -100,11 +95,18 @@
       <find>linktext</find>
       <find>correct_answers</find>
       <find>max-width: 500</find>
+      <find>15</find>
+      <find>whitebox</find>
+      <find>try_again</find>
+      <find>challengeTicker</find>
+      <find>\&lt;title\&gt;Every Try Counts\&lt;\/title\&gt;\n</find>
+      <find>NK84NDQ</find>
     </findStrings>
     <replaceStrings>
       <replace>gtm-visibility</replace>
-      <replace />
       <replace>linkText</replace>
+      <replace />
+      <replace>PSNFJLQ</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -131,8 +133,8 @@
         <option value="$PROJECT_DIR$/app/assets/css/vendor/animate.css" />
         <option value="$PROJECT_DIR$/app/assets/js/app.js" />
         <option value="$PROJECT_DIR$/app/dist/styles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/assets/scss/layout.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -152,10 +154,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="29" />
-    <option name="y" value="30" />
-    <option name="width" value="1280" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="1272" />
     <option name="height" value="713" />
   </component>
   <component name="ProjectView">
@@ -231,10 +232,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69597000" />
+    <option name="totallyTimeSpent" value="70799000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="25" width="1272" height="713" extended-state="6" />
+    <frame x="0" y="24" width="1272" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -243,8 +244,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33603895" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18536586" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33603895" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18536586" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -515,21 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1154">
-          <caret line="716" lean-forward="true" selection-start-line="716" selection-end-line="716" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#button#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#button#2;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#46371#46376#0" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -540,21 +526,36 @@
     <entry file="file://$PROJECT_DIR$/app/assets/css/vendor/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/dist/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="1581" column="24" lean-forward="true" selection-start-line="1581" selection-start-column="24" selection-end-line="1581" selection-end-column="24" />
+        <state relative-caret-position="163">
+          <caret line="1581" column="24" selection-start-line="1581" selection-start-column="24" selection-end-line="1581" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/scss/layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="1059" column="20" selection-start-line="1059" selection-start-column="20" selection-end-line="1059" selection-end-column="20" />
+        <state relative-caret-position="138">
+          <caret line="1157" column="16" selection-start-line="1157" selection-start-column="1" selection-end-line="1157" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#2;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#46371#46376#0" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
