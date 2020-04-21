@@ -1095,10 +1095,6 @@ p.quiz-results-message {
   left: 0;
   padding: 20px; }
 
-@media (max-width: 550px) {
-  .question:first-child {
-    margin-top: 1em; } }
-
 /* -------------------------------------- Challenges -------------------------------------- */
 .challengeTitle {
   margin: 10px 0px;
@@ -1583,9 +1579,11 @@ button {
 
 @media (max-width: 500px) {
   .programs button.btn,
-  .programBox .titleArea h3,
-  .challenges .btn.btn-challenge {
+  .programBox .titleArea h3 {
     font-size: 24px;
+    padding: 20px; }
+  .challenges .btn.btn-challenge {
+    font-size: 18px;
     padding: 20px; }
   .programBox .titleArea h3 {
     padding-right: 47px;
@@ -1600,8 +1598,7 @@ button {
 
 @media (max-width: 430px) {
   .programs button.btn,
-  .programBox .titleArea h3,
-  .challenges .btn.btn-challenge {
+  .programBox .titleArea h3 {
     font-size: 24px;
     padding: 15px; }
   .programBox .titleArea h3 {
