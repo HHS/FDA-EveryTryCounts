@@ -2,7 +2,7 @@
 
 | Software      | Version            |
 | ------------- |:------------------:|
-| Node          | 10.19.0            | 
+| Node.js       | 10.19.0            | 
 
 ## Environment Build and Watch
 npm run dev
