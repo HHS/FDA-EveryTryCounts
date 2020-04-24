@@ -1,7 +1,12 @@
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
-var webpack = require('webpack');
 
 module.exports = env => {
+	let watch = true;
+
+	if (env.mode === "production") {
+		watch = false;
+	}
+
 	return {
 		entry: [
 			"@babel/polyfill", 
@@ -11,7 +16,7 @@ module.exports = env => {
 		output: {
 			filename: "../app/dist/bundle.js"
 		},
-		watch: true,
+		watch,
 		mode: env.mode,
 		module: {
 		  rules: [
