@@ -2,10 +2,10 @@
 
 | Software      | Version            |
 | ------------- |:------------------:|
-| OS            | Ubuntu 16.04.4 LTS | 
+| Node          | 10.19.0            | 
 
-#node version 
-10.19.0
-
-#Environment and Watch
+## Environment Build and Watch
 npm run dev
+
+## Production Build
+npm run prod
