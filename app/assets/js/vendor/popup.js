@@ -67,7 +67,7 @@ function run_popup() {
 
 //CONTROLLING EVENTS IN jQuery
 jQuery(document).ready(function(){
-    console.log(trigger_time);
+    // console.log(trigger_time);
     setTimeout(run_popup, trigger_time * 1000);
 
     //LOADING POPUP

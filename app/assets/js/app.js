@@ -137,9 +137,9 @@ new Vue({
          * so display response that matches number correct.
          */
         next_quiz_question: function () {
-            console.log("starting question");
+            // console.log("starting question");
             this.answer_selected = "";
-            console.log(this.all_quiz_responses[2].node.field_result_message);
+            // console.log(this.all_quiz_responses[2].node.field_result_message);
 
             if (this.current_quiz_question_number < this.total_quiz_questions) {
                 this.current_quiz_question_number++;
